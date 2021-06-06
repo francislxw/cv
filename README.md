@@ -1,2 +1,2 @@
 # CV
-Resume
+This is for resume purpose
