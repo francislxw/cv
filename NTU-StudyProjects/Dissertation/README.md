@@ -22,7 +22,7 @@ The disertation for the master degree on Digital Media Technology program.
 
   Half-edge data structure is an edge-centred data structure capable of maintaining incidence information of vertices, edges and faces, it is a common way to represent a polygon mesh which is a shared list of vertices and a list of faces storing pointers for its vertices. This representation is both convenient and efficient for many purposes.
 
-  1.) Each edge is divided into two half-edges.
+  1.) Each edge is divided into two half-edges.  
 
   2.) Each half-edge has 5 references, as below:
 
@@ -35,8 +35,13 @@ The disertation for the master degree on Digital Media Technology program.
     ④ The “twin” edge.
 
     ⑤ The starting vertex.
+   
+   <p float="left">
+     <img src="images/4.1.png" width="400" height="250">   
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <img src="images/4.2.png" width="400" height="360">
+   </p>
 
-  Diagram (docs/Half-Edge2.png)
 
 #### 5. Bernstein Polynomial
 
@@ -44,7 +49,7 @@ The disertation for the master degree on Digital Media Technology program.
 
   1.) The n + 1 Bernstein basis polynomials of degree n are
 
-  ![Diagram](docs/BP.png) 
+   <img src="images/5.1.png" width="600" height="50"> 
   
   2.) Binomial coefficient (“n-choose-i”)
 
