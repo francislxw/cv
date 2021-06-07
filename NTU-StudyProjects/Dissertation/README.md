@@ -2,6 +2,10 @@
 
 The disertation for the master degree on Digital Media Technology program.
 
+### Techniques
+
+Computer Graphics | OpenGL | C/C++ | Windows API
+
 ### Features
 
 #### 1. Interactive Shape Editing
