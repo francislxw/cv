@@ -1,91 +1,228 @@
-# Interactive Shape Editing
-The disertation for the master degree on Digital Media Technology program
-## Features
-1. Interactive Shape Editing
+# Curriculum Vitae
+ 
+## Personal Information
 
-    Interactive shape editing is an active field of research in computer graphics, and consequently a variety of different solutions were proposed to solve this problem.
-    
-2. Free Form Deformation (FFD)
+ <img align='right' src="docs/LXW.png" width="120" height="169">  
 
-    Efficient and intuitive methods for three-dimensional shape design, modification, and animation are becoming increasingly important areas in computer graphics.
-    
-    The free-form deformations were designed to deal with some of these problems. These methods embed an object in a deformable region of space such that each point of the object has a unique parameterization that defines its position in the region. 
-    
-3. Free-Form Deformation Algorithm
+**Name:** Francis Luo    
 
-   Free-Form Deformation (FFD) which based on trivariate Bernstein Polynomials is an approach to deform solid geometric models. The techniques involved can be used in CSG or B-rep solid modelling systems, to deform planes, quadrics, surfaces (B-spline parametric patches and implicit surface). It also has a property of preserving volume during deformations.
+**Cell Phone No:** +65-98955692
 
-4. Half-Edge Data Structure
+**E-mail:** luo_xiawu@163.com
 
-   Half-edge data structure is an edge-centred data structure capable of maintaining incidence information of vertices, edges and faces, it is a common way to represent a polygon mesh which is a shared list of vertices and a list of faces storing pointers for its vertices. This representation is both convenient and efficient for many purposes. 
-   
-   1.) Each edge is divided into two half-edges.
+**WeChat:** francis2891
 
-   2.) Each half-edge has 5 references, as below:
-   
-   ① The face on left side (assume counter-clockwise order).
-   
-   ② The Previous half-edge in counter-clockwise order.
-   
-   ③ The next half-edge in counter-clockwise order.
-   
-   ④ The “twin” edge.
-   
-   ⑤ The starting vertex.
-   
-   ![Diagram](docs/Half-Edge.png) (docs/Half-Edge2.png)
+**Date of Birth:** June 15, 1979
 
-5. Bernstein Polynomial
+**Nationality:** China
 
-   Polynomials in Bernstein form were first used by Bernstein in a constructive proof for the Stone–Weierstrass approximation theorem. With the advent of computer graphics, Bernstein polynomials, restricted to the interval x ϵ[0, 1], became important in the form of Bézier curves.
-   
-   1.) The n + 1 Bernstein basis polynomials of degree n are
+**Current Location:** Singapore
 
-       ![Diagram](docs/BP.png) 
+**Marital Status:** Married
 
-   2.) Binomial coefficient (“n-choose-i”) 
-   
-       ![Diagram](docs/BP2.png)
-   
-   3.) The Lerp of lower degrees:
-       
-       ![Diagram](docs/BP3.png)
-   
-6. De Casteljau Algorithm
+## Working Experience
 
-   De Casteljau algorithm is a numerically stable way to evaluate polynomials in Bernstein form. And in the mathematical field of numerical analysis, de Casteljau's algorithm is a recursive method to evaluate polynomials in Bernstein form or Bézier curves.
+**Senior Software Engineer III (Engineering | DevOps)**
+
+Autodesk Asia Pte Ltd. (ASRD)  | Singapore
+
+November 2011 ~ Present (9 years 5 months) 
+
+**Software Engineer (Developer)**
+
+Autodesk, Inc. (ACRD) | Shanghai, China
+
+May 2005 ~ November 2011 (6 years 6 months) 
+
+## Skills Summary
+
+Learn about Computer Graphics, OpenGL
+
+Familiar with C++, python, Perl, Batch, Groovy + UT
+
+Familiar with the principles of basic data structures and algorithms
+
+Learn about Java, Java Script, Type Script, PHP, HTTPS, HTML, XML, CSS, JSON, ASP.net
+
+Familiar with Jenkins, Git, Artifactory, CI-CD Pipeline, Perforce, Electrical Cloud
+
+Learn about IaC, Docker, Ansible, AWS, Azure, Linux
+
+Learn about SQL, MongoDB, Redis ActiveRecord|slice, AWS Dynamoid.Document
+
+Learn about AI/ML basic theories, plus completed assignments
+
+Familiar with Scrum, Agile, LUMA, OKR theories
+
+## Training Experience
+
+**Power Communication Skills** | April 13th, 2012
+
+**Scrum Foundation and Agile Engineering Practice** | April 16th ~ 18th 2012
+
+**Employee Leadership Program Training** | September 4th ~ 7th 2012
+
+**Conflicts Management** | April 23rd, 2013
+
+**Power Presentation Skills** | July 10th ~11th 2014
+
+**Security Training** | January 4th, 2015
+
+**Business English 2B** | Dec 2016 ~ Jan 2017, British Council  
+
+**AWS Workshop: AMI creation using Packer** | July 1st, 2017
+
+**AWS Workshop: Terraform** | July 21st ,2017
+
+**AWS Technical Essentials** | April 23rd , 2018, Asia / Singapore
+
+**AWS Summit Singapore 2019** | Nov 4th, 2019
+
+**AWS Summit Online ASEAN 2020** | May 13th, 2020, Singapore
+
+**OKR workshop** | May 23rd ,2019
+
+**Agile Workshop** | Oct 11st, 2019
+
+**Interview Bootcamp** | March 15th, 2021
+
+## Education
+<img align='left' src="docs/NTU.png" width="140" height="80">  
+
+**Nanyang Technological University | NTU**
+
+Singapore
+
+Master’s degree, Digital Media Technology, School of Computer Engineering
+
+August 2012 ~ July 2014
+
+<img align='left' src="docs/JSKJDX2.jpg" width="120" height="80"> 
+
+**Jiangsu University of Science and Technology | JUST**
+
+China
+
+* Master’s degree, Computer Integrated Manufacturing Systems (CIMS), School of Mechanical Engineering
+
+September 2002 ~ March 2005
+
+* Bachelor’s degree, Mechanical Manufacture and Automation, School of Mechanical Engineering
+
+September 2008 ~ July 2002
+
+## E-Learning | ML&NNDL&AI
+
+<img align='left' src="docs/Stanford.U.png" width="130" height="95"> 
+
+**Machine Learning**
+
+**@Stanford** 
+
+Angela Wu, 11 weeks, June,2019-Jan,2020) from [coursera:](https://www.coursera.org/lecture/machine-learning/welcome-to-machine-learning-zcAuT)
+
+|Time|Contents||Time|Contents|
+|-|-|-|-|-|
+|W2|Linear Regression with Multiple Variables||W7|SVM|
+|W3|Classification||W8|Clustering|
+|W4|Neural Network||W9|Anomaly Detection|
+|W5|CostFunction Backpropagation||W10|Gradient Descent with Large Datasets|
+|W6|Evaluating Learning Algorithm||W11|Photo OCR|
+
+<img align='left' src="docs/DeepLearning.png" width="110" height="110"> 
+
+**Neural Networks and Deep Learning**
+
+**@deeplearning.ai**
+
+Angela Wu, 16 weeks, Oct,2019-Jan,2020 from [coursera:](https://www.coursera.org/specializations/deep-learning?utm_source=deeplearning-ai&utm_medium=institutions&utm_campaign=20210308-dls-2-coursera-partner-promo-tool-dls-refresh)
+
+The **Deep Learning Specialization** is a foundational program that will help you understand thcapabilities, challenges, and consequences of deep learning and prepare you to participate in the development of leading-edge AI technology. 
+In this Specialization, you will build and train neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learn how to make them better with strategies such as Dropout, BatchNorm, Xavier/He initialization, and more. Get ready to master theoretical concepts and their industry applications using Python and TensorFlow and tackle real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.
+AI is transforming many industries. The Deep Learning Specialization provides a pathway for you to take the definitive step in the world of AI by helping you gain the knowledge and skills to level up your career. Along the way, you will also get career advice from deep learning experts from industry and academia. 
+**Skills learned:**
+<img align='middle' src="docs/dp_skill.png" width="600" height="150"> 
 
 
-7. Free Form Deformation (FFD)
+## E-Practice
 
-   The FFD is defined in terms of a tensor product trivariate Bernstein Polynomial. FFD is a technique for manipulating any shape in a free-form manner. It can be looked as a “rubber-like” deformation of space. Deformation can be modelled by deforming a regular grid; and it includes 2D-FFD and 3D-FFD. The deformation process can be described as below.
+**leetcode exercise** @ https://leetcode-cn.com/u/lionsg/ | from Dec,2020 
 
-    ![Diagram](docs/FFD.png)
-    
-    1.) Local Coordinate System
-
-    ![Diagram](docs/FFD2.png)
-    
-    2.) Any vertex position X can be expressed
-    
-    ![Diagram](docs/FFD3.png)
-    
-    3.) The local coordinates (s, t, u) of X can be calculated
-    
-    ![Diagram](docs/FFD3.png)
-    
-    4.) every control point's position can be calculated
-
-     ![Diagram](docs/FFD3.png)
-     
-   5.) Deformed Coordinate 
-     
-     The deformation is specified by moving the control point Pijk from their un-displaced, latticial positions. And the deformed function is defined by a trivariate tensor product Bernstein Polynomial, the new point Xffd of the arbitrary point X can be calculated by its local coordinates (s, t, u) according to the following trivariate Bernstein Polynomial equation.
-     
-     ![Diagram](docs/FFD3.png)
-    
-8. Implementation Result
-    
-    ![Diagram](docs/FFD3.png)
+<img align='middle' src="docs/LetCode.png" width="900" height="200"> 
 
 
+
+## Detailed Working Experiences
+
+**Two generations of Automation Build Process for most desktop products of Autodesk**
+
+I. Decouple VB build tool (pay for license) to PERL scripts by us, plus build dashboard, SCM: P4
+
+II Decouple scripts to groovy/python, with Jenkins pipeline, plus build dashboard, SCM: Git + Artifactory
+
+*Main Pipeline stages:*
+
+* Initialize build, sync-source, update 3P, compile solutions, Digital Sign binaries, Create masters, Digital sign installers, UPI Register, Post Symbols, Post masters, post-build tasks.
+
+* Automatically error checking from logs.
+
+* Notify respective committers correctly.
+
+**Mainly for the following products:**
+
+Setup CI-CD pipeline for most major products like: 
+
+Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
+
+**Infrastructure as Code (IaC)**
+
+* Docker + Ansible to control all ECS machines +set up build environment (software version control)
+
+* Implement dashboard to monitor above build status.
+
+* Branch build scheduler for SWD team, to validate their code changes form their own branches
+
+* Etc.
+
+**React +Node.js front-end programming** 
+
+Ruby-smal + OKTA (SAML2) to implement the log in user administrator identity confirmation
+
+**Rest API implementation** | ruby | typescript | Redis + Sidekiq
+
+* ci-services
+
+* testcase.manage.service
+
+* tcdb.services
+
+* access.service
+
+* etc.
+
+**Communicate with #Slack**
+
+Send build results to the slack channel http POST request (header, body, data)
+
+**Amazon Web Services** | S3, SQS, Dynamoid, ’aws-sdk’, test/mocking
+* AWS Credentials| AWSAccessKeyId | AWSSecretKey 
+* AWS S3 (Simple Storage Service)| Buckets: $s3.bucket(ENV[‘AWS_S3_BUCKET’]).object(key)
+* AWS SQS | Aws::SQS::Client.new 
+* AWS Access Control | Block public access | Configuring cross-origin resource sharing (CORS)
+* AWS Shoryuken | Super-efficient AWS SQS thread-based message processor | .configure_client/server
+* AWS Dynamoid DB | gem 'dynamoid' | include Dynamoid::Document| Dynamoid.configure | rake dynamoid:create_tables
+* gem 'aws-sdk'  | Aws::S3::Resource.new| Aws.config.update
+* AWS LocalStack | A fully functional local AWS Cloud Stack for test/mocking framework | endpoint: 'http://localstack:4566'
+
+**AWS Lambda**|AMI | SSM | EC2 instance | CloudFormation | boto3 | python-lambda awscli
+* Amazon Machine Images (AMIs)
+* Amazon Simple Systems Manager (SSM)
+* Amazon Elastic Compute Cloud instance (EC2 instance)
+
+**Hashicorp Terraform**|HCL| AWS Lambda | EC2 instance | python-lambda awscli
+* HashiCorp 配置语言（HCL）
+
+
+**HashCorp Packer**
+
+* Microsoft Azure | Azure Image Builder | python-adal | azure-functions | azure-identity | azure-mgmt-imagebuilder | azure-mgmt-resource
