@@ -2,13 +2,13 @@
 
 Advanced Computer Graphics
 
-# Instructors
+## Instructors
 
-Professor HE Ying
+**Associate Professor** [HE Ying](https://personal.ntu.edu.sg/yhe/)
 
-![](docs/1.png)
+<img align='middle' src="docs/1.png" width="70%" >  
 
-# Course Objectives
+## Course Objectives
 
 * To give practical knowledge of the fundamentals of the graphics pipeline
 
@@ -18,14 +18,14 @@ Professor HE Ying
 
 * To refresh your math knowledge
 
-# What Learned In This Course
+## What Learned In This Course
 
-![](docs/2.png)
+<img align='middle' src="docs/2.png" width="70%" >
 
-# Tentative Schedule
+## Tentative Schedule
 
-![](docs/3.png)
+<img align='middle' src="docs/3.png" width="70%" >
 
-# Programming Assignment
+## Programming Assignment
 
-![](docs/4.png)
+<img align='middle' src="docs/4.png" width="70%" >
