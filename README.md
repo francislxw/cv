@@ -26,7 +26,7 @@
 
 Autodesk Asia Pte Ltd. (ASRD)  | Singapore
 
-November 2011 ~ Present (9 years 5 months) 
+November 2011 ~ Present (9 years 5 months)
 
 **Software Engineer (Developer)**
 
