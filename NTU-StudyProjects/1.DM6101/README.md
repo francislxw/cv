@@ -1,14 +1,14 @@
-# DM6101 
+## DM6101 
 
 Advanced Computer Graphics
 
-## Instructors
+### Instructors
 
 **Associate Professor** [HE Ying](https://personal.ntu.edu.sg/yhe/)
 
-<img align='middle' src="docs/1.png" width="70%" >  
+<img align='middle' src="docs/1.png" width="60%" >  
 
-## Course Objectives
+### Course Objectives
 
 * To give practical knowledge of the fundamentals of the graphics pipeline
 
@@ -18,14 +18,14 @@ Advanced Computer Graphics
 
 * To refresh your math knowledge
 
-## What Learned In This Course
+### What Learned In This Course
 
-<img align='middle' src="docs/2.png" width="70%" >
+<img align='middle' src="docs/2.png" width="60%" >
 
-## Tentative Schedule
+### Tentative Schedule
 
-<img align='middle' src="docs/3.png" width="70%" >
+<img align='middle' src="docs/3.png" width="60%" >
 
-## Programming Assignment
+### Programming Assignment
 
-<img align='middle' src="docs/4.png" width="70%" >
+<img align='middle' src="docs/4.png" width="60%" >
