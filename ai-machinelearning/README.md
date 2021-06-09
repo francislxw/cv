@@ -1,4 +1,4 @@
-[<img align='left' src="docs/Stanford.U4.png" width="467" height="80">](https://www.coursera.org/lecture/machine-learning/welcome-to-machine-learning-zcAuT)
+[<img align='left' src="../docs/Stanford.U4.png" width="467" height="80">](https://www.coursera.org/lecture/machine-learning/welcome-to-machine-learning-zcAuT)
 
 |Time|Contents||Time|Contents|
 |-|-|-|-|-|
