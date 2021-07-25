@@ -212,6 +212,6 @@ Send build results to the slack channel http POST request (header, body, data)
 * HashiCorp 配置语言（HCL）
 
 
-**HashCorp Packer**
+**Hashicorp Packer**
 
 * Microsoft Azure | Azure Image Builder | python-adal | azure-functions | azure-identity | azure-mgmt-imagebuilder | azure-mgmt-resource
