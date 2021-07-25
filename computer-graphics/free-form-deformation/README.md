@@ -1,7 +1,9 @@
 # Free Form Deformation
 
 Free-form deformation based on DeCasteljau algorithm/bernstein polynomial based on contents in NTU DM6101 class.
-Implemented by JavaScript plus WebGL languages
+Implemented by JavaScript plus WebGL languages.
+
+ <img align='middle' src="docs/1.bigdraw.png" width="49%" >  <img align='middle' src="docs/2.2.bunny.png" width="49%" >    
 
 ## Include knowledge
 
