@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  webgl:
+    container_name: ffd-francis01-container
+    image: ffd-francis01-image
+    build: .
+    ports:
+      - "8030:80"
