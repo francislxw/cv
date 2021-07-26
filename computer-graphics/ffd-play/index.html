@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Complete file example</title>
+  <style>
+    html {
+      font-family: sans-serif;
+    }
+
+    form {
+      /*width: 600px;*/
+      background: #ccc;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid black;
+    }
+
+    form ol {
+      padding-left: 0;
+    }
+
+    form li, div > p {
+      background: #eee;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      list-style-type: none;
+      border: 1px solid black;
+    }
+
+    form img {
+      height: 64px;
+      order: 1;
+    }
+
+    form p {
+      line-height: 32px;
+      padding-left: 10px;
+    }
+
+/*    form label, form button {
+      background-color: #7F9CCB;
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 1px ridge black;
+      font-size: 0.8rem;
+      height: auto;
+    }
+
+    form label:hover, form button:hover {
+      background-color: #2D5BA3;
+      color: white;
+    }
+
+    form label:active, form button:active {
+      background-color: #0D3F8F;
+      color: white;
+    }*/
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>
+        <canvas id = "glcanvas" width = "430" height = "300">A drwaing of something.</canvas>
+      </td>
+      <td>
+        <form>
+          <label>Choose Models (.m|.obj):</label><br>
+          <input type="file" id="image_uploads" name="image_uploads" accept=".m, .obj" multiple>
+          <hr>
+          <label>Rendering Schemes</label><br>
+          <input type="radio" id="0" name="stylechoice" value="Point">Points<br>
+          <input type="radio" id="1" name="stylechoice" value="Wire">Wireframe<br>
+          <input type="radio" id="2" name="stylechoice" value="Flat Shadding">Flat Shadding<br>
+          <input type="radio" id="3" name="stylechoice" value="Smooth Shadding" checked="checked">Smooth Shadding<br>
+          <hr>
+          <input type="checkbox" name="axis" id="drawAxis" value="1" Checked>Draw Axis<br>
+          <input type="checkbox" name="grid" id="drawGrid" value="1" Checked>Draw Grid<br>
+          <input type="checkbox" name="lattice" id="drawLattice" value="1">FFD Lattice<br>
+          <hr>
+          <input type="color" name="objectColor" id="objColor" value="#ff0000">Object Color<br>
+          <input type="color" name="backgroundColor" id="bkColor" value="#ff0000">Backgd Color<br>
+          <hr>
+          <label>Camera View</label><br>
+          <input type="radio" id="15" name="cameraType" value="orthogonal">Orthogonal<br>
+          <input type="radio" id="16" name="cameraType" value="perspective" checked="checked">Perspective<br>
+          <hr>
+          <input type="radio" id="18" name="viewType" value="3D" checked>3D<br>
+          <input type="radio" id="19" name="viewType" value="YZ">YZ<br>
+          <input type="radio" id="20" name="viewType" value="ZX">ZX<br>
+          <input type="radio" id="21" name="viewType" value="XY">XY<br>
+          <hr>
+          <label>FFD Algorithms</label><br>
+          <input type="radio" id="22" name="algorithms" value="DeCasteljau" checked>De Casteljau<br>
+          <input type="radio" id="23" name="algorithms" value="BSPolynomial">Bernstein Polynomial<br>
+        </form>
+      </td>
+    </tr>
+  </table>
+  <script type="module" src="./ffd.js" defer></script>
+</body>
+</html>
