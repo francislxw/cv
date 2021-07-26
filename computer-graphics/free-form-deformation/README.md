@@ -9,7 +9,7 @@ Implemented by JavaScript plus WebGL languages.
 
 FFD, free-form, deformation, half-tree, lattice, mesh/obj files, threejs, WebGL, JavaScript
 3D, graphics, modeling, surfaces, normlas, wireframe, flat, decasteljau, bernstein polynomial, lerp, controlpoints
-3D views setup (Canvas, Camera, Scene), interactive editing, mouse pick up points, drag elements
+3D views setup (Canvas, Camera, Scene), interactive editing, mouse pick up points, Raycaster, drag elements
 World coordinate, local coordinate, screen coordinate, perspectiveCamera, orthographicCamera
 
 ## Dev environment
