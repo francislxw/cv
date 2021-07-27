@@ -1,3 +1,11 @@
+/*
+ =====================================================================
+ @license MIT
+ @author Francis
+ @copyright 2021 Francis.Luo
+ @end
+ =====================================================================
+ */
 import * as THREE from './threejs/three.module.js';
 import * as HALFTHREE from './threejs/HalfThree.js';
 import * as LATTICES from './threejs/Lattices.js';
