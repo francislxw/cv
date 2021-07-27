@@ -1,8 +1,13 @@
+/*
+ =====================================================================
+ @license MIT
+ @author Francis
+ @copyright 2021 Francis.Luo
+ @end
+ =====================================================================
+ */
 import { OrbitControls } from "./resources/OrbitControls.js";
 import * as THREE from "./resources/three.module.js";
-//import { GUI } from './jsm/libs/dat.gui.module.js';
-//import * from "./resources/three.js";
-//import { OrbitControls } from "https://threejs.org/examples/jsm/controls/OrbitControls.js";
 
 const OPEN_MFILE_DIALOG        = 0,     // open file dialog
       USER_CHOOSE_REAL_PROJECT = 1,     // real project, not used
