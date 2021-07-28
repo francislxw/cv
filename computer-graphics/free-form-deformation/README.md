@@ -3,8 +3,13 @@
 Free-form deformation based on DeCasteljau algorithm/bernstein polynomial based on contents in NTU DM6101 class.
 Implemented by JavaScript plus WebGL languages.
 
- <img align='middle' src="docs/5.demo.jpg" height="300" width="98%" >    
-
+ <img align='middle' src="docs/5.demo.jpg" height="300" width="98%" >  
+ 
+## Features
+* Load _*.m/*.obj_ file, different eye/camera view types, different color choices for model and background
+* Control Points: Press _'shift'_ to select multiple control points, Press _'control'_ to select adjecent control points
+* Refer to GUI for more features, like: different rendering model types _WIRE, FLAT, SMOOTH_ etc.
+                  
 ## Techniques
 
 FFD, free-form, deformation, half-tree, lattice, mesh/obj files, threejs, WebGL, JavaScript
