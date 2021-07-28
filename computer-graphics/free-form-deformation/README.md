@@ -12,14 +12,14 @@ Implemented by JavaScript plus WebGL languages.
                   
 ## Techniques
 
-FFD, free-form, deformation, half-tree, lattice, mesh/obj files, threejs, WebGL, JavaScript
-3D, graphics, modeling, surfaces, normlas, wireframe, flat, decasteljau, bernstein polynomial, lerp, controlpoints
-3D views setup (Canvas, Camera, Scene), interactive editing, mouse pick up points, Raycaster, drag elements
-World coordinate, local coordinate, screen coordinate, perspectiveCamera, orthographicCamera
+* FFD, free-form, deformation, half-tree, lattice, mesh/obj files, threejs, WebGL, JavaScript, html
+* 3D, graphics, modeling, surfaces, normlas, wireframe, flat, decasteljau, bernstein polynomial, lerp, controlpoints
+* 3D views setup (Canvas, Camera, Scene), interactive editing, mouse pick up points, Raycaster, drag elements
+* World coordinate, local coordinate, screen coordinate, perspectiveCamera, orthographicCamera
 
 ## Dev environment
 
-This project was bootstrapped nginx,alpine with docker environment.
+This project was bootstrapped by nginx(alpine) with docker environment.
 
 ### Build
 
@@ -29,7 +29,7 @@ This project was bootstrapped nginx,alpine with docker environment.
 
     docker-compose up
 
-Open [http://localhost:8030](http://localhost:8030) to view it in the browser.
+Launch [http://localhost:8030](http://localhost:8030) to view it in the browser.
 
 ### Stop
 
