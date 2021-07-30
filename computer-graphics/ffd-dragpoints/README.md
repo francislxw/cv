@@ -8,14 +8,8 @@ Method 1 & 4 are basic ways, method 2 & 3 are concise and roubst
 * M2: Draw control points and lines on a three js BoxGeometry
 * M3: Use 3D grid methods to darw controls points and linessegments in 3D direction
 * M4: Basic method, by calculating control points and lines postions with algorithm, then draw them.
-
  <img align='middle' src="docs/1.combine.jpg" height="300" width="98%" >
- 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_'Method1'_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_'Method2'_
-     
  <img align='middle' src="docs/2.combine.jpg" height="300" width="98%" > 
-
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_'Method3'_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_'Method4'_
 
 ## Techniques
 * Press _'shift'_ to select multiple control points 
