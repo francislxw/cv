@@ -3,14 +3,14 @@
 FFD in the the disertation for NTU graduation is implemented in C++, this project is to translate it into web services.
 Implemented by html (web UI part), JavaScript plus WebGL languages.
 
- <img align='middle' src="docs/1.demo.jpg" height="300" width="98%" >    
+ <img align='middle' src="docs/1.demo.jpg" height="330" width="98%" >    
 
 ## Techniques
 
-FFD, free-form, deformation, half-tree, lattice, mesh/obj files, threejs, WebGL, JavaScript, html web UI
-3D, graphics, modeling, surfaces, normlas, wireframe, flat, decasteljau, bernstein polynomial, lerp, controlpoints
-3D views setup (Canvas, Camera, Scene), interactive editing, mouse pick up points, Raycaster, drag elements
-World coordinate, local coordinate, screen coordinate, perspectiveCamera, orthographicCamera
+* FFD, free-form, deformation, half-tree, lattice, mesh/obj files, threejs, WebGL, JavaScript, html web UI
+* 3D, graphics, modeling, surfaces, normlas, wireframe, flat, decasteljau, bernstein polynomial, lerp, controlpoints
+* 3D views setup (Canvas, Camera, Scene), interactive editing, mouse pick up points, Raycaster, drag elements
+* World coordinate, local coordinate, screen coordinate, perspectiveCamera, orthographicCamera
 
 ## Dev environment
 
