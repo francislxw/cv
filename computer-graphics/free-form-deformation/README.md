@@ -3,7 +3,7 @@
 Free-form deformation with DeCasteljau/bernstein polynomial algorithms based on contents in NTU DM6101 class.
 Implemented by JavaScript plus WebGL languages.
 
- <img align='middle' src="docs/5.demo.jpg" height="300" width="98%" >  
+ <img align='middle' src="docs/6.demo.jpg" height="300" width="98%" >  
  
 ## Features
 * Load _*.m/*.obj_ file, different eye/camera view types, different color choices for model and background
