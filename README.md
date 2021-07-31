@@ -2,7 +2,7 @@
  
 ## Personal Information
 
- <img align='right' src="docs/LXW.png" width="120" height="169">  
+ <img align='right' src="docs/LXW.jpg" width="120" height="169">  
 
 **Name:** Francis Luo    
 
