@@ -5,11 +5,9 @@ This project is to generate Shakespeare poems by using a collection of Shakespea
 Using LSTM cells, you can learn longer term dependencies that span many characters in the text--e.g., where a character appearing somewhere a sequence can influence what should be a different character much much later in the sequence.
 
 ## Techniques
-### Recurrent Neural Network
-* Forward propagation to compute the loss function
-* Backward propagation to compute the gradients with respect to the loss function
-* Clip the gradients to avoid exploding gradients
-* Using the gradients, update parameters with the gradient descent update rule.
+* Use LSTMs to capture longer-range dependencies
+* The model is a deeper, stacked LSTM model (2 layer)
+* Using Keras instead of python to simplify the code.
 
 <img align='middle' src="docs/3.rnn.png" width="90%" height="300">
 
@@ -17,8 +15,8 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
 ## How to Setup DEV Environment
 ### On Mac/Linux/Windows 10
 1. Install Docker.
-2. Clone the ci-pipeline repository.
-3. In the 1.dinosaurus_name dir, run below script to build docker image for testing:
+2. Clone the shakespeare-poems repository.
+3. In the 2.Shakespeare_poems dir, run below script to build docker image for testing:
     ```
     docker build -t shakespeare-poem .
     ```
@@ -32,6 +30,7 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
     ```
     run_ai.bat
     ```
+5. python version >= 3.7
 ## Experiment Result
 ```
 [luoxi@XIAWUs-MacBook-Pro 2.Shakespeare_Poem % ./run_ai.sh 
