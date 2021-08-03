@@ -11,15 +11,15 @@ This project contains python and library scripts of Recurrent Neural Network, th
 * Clip the gradients to avoid exploding gradients
 * Using the gradients, update parameters with the gradient descent update rule.
 
-<img align='middle' src="docs/3.rnn.png" width="98%" height="480">
+<img align='middle' src="docs/3.rnn.png" width="90%" height="300">
 
 ## Gradient Clipping
-
-<img align='middle' src="docs/2.clip.png" width="98%" height="480">
+Visualization of gradient descent with and without gradient clipping, in a case where the network is running into "exploding gradient" problems.
+<img align='middle' src="docs/2.clip.png" width="70%" height="200">
 
 ## Sampling
-
-<img align='middle' src="docs/1.dinos3.png" width="98%" height="480">
+Sample function is to sample characters which will include 4 steps.
+<img align='middle' src="docs/1.dinos3.png" width="80%" height="300">
 
 ## How to Setup DEV Environment
 ### On Mac/Linux/Windows 10
