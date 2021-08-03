@@ -1,3 +1,3 @@
 ## Dinosaurus Island Name Generation
 
-<img align='middle' src="docs/1.nndp_title.jpg" width="467" height="80">
+<img align='middle' src="docs/2.dinos3.jpg" width="467" height="80">
