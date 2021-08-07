@@ -14,7 +14,7 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
 
 ## How to Setup DEV Environment
 ### On Mac/Linux/Windows 10
-1. Install Docker.
+1. Install Docker. refer [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/dockerfiles/dockerfiles/cpu.Dockerfile) for the cpu dockerfile generation.
 2. Clone the shakespeare-poems repository.
 3. In the 2.Shakespeare_poems dir, run below script to build docker image for testing:
     ```
@@ -30,7 +30,7 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
     ```
     run_ai.bat
     ```
-5. python version >= 3.7
+5. python version:3.6~3.8 (V3.6 here)
 ## Experiment Result
 <img align='middle' src="docs/6.result.jpg" height="400" width="70%" >
 
