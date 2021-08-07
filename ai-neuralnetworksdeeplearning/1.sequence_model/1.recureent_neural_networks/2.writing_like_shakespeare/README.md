@@ -9,7 +9,7 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
 * The model is a deeper, stacked LSTM model (2 layer)
 * Using Keras instead of python to simplify the code.
 
-<img align='middle' src="docs/3.rnn.png" width="90%" height="300">
+<img align='middle' src="docs/8.rnn.png" width="90%" height="300">
 
 
 ## How to Setup DEV Environment
@@ -32,8 +32,6 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
     ```
 5. python version >= 3.7
 ## Experiment Result
-```
-[luoxi@XIAWUs-MacBook-Pro 2.Shakespeare_Poem % ./run_ai.sh 
-----ai:shakespeare_poem----
+<img align='middle' src="docs/3.result.gif" height="300" width="90%" >
 
    
