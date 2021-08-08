@@ -5,9 +5,10 @@ This project is to generate Shakespeare poems by using a collection of Shakespea
 Using LSTM cells, you can learn longer term dependencies that span many characters in the text--e.g., where a character appearing somewhere a sequence can influence what should be a different character much much later in the sequence.
 
 ## Techniques
-* Use Keras to implement.
-* Use LSTMs to capture longer-range dependencies
-* The model is a deeper, stacked LSTM model (2 layer)
+* Use Keras to implement, include:
+* Reshape(): Reshapes an output to a certain shape.
+* LSTM(): Long Short-Term Memory layer
+* Dense(): A regular fully-connected neural network layer.
 
 <img align='middle' src="docs/8.rnn.png" width="90%" height="300">
 
