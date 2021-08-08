@@ -1,8 +1,9 @@
 # Improvise a Jazz Solo with an LSTM Network
 <img align='right' src="docs/3.1.jazz.jpg" height="300" width="250" >
-This project is to generate Shakespeare poems by using a collection of Shakespearian poems with LSTM. 
+This project is to implement a model that uses an LSTM to generate music. We will even be able to listen to your own music at the end of the assignment. 
 
-Using LSTM cells, you can learn longer term dependencies that span many characters in the text--e.g., where a character appearing somewhere a sequence can influence what should be a different character much much later in the sequence.
+* Apply an LSTM to music generation.
+* Generate our own jazz music with deep learning.
 
 ## Techniques
 * Use Keras to implement, include:
