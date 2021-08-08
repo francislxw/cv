@@ -1,5 +1,5 @@
 # Improvise a Jazz Solo with an LSTM Network
-<img align='right' src="docs/1.shakespeare.jpg" height="300" width="250" >
+<img align='right' src="docs/3.1.jazz.jpg" height="300" width="250" >
 This project is to generate Shakespeare poems by using a collection of Shakespearian poems with LSTM. 
 
 Using LSTM cells, you can learn longer term dependencies that span many characters in the text--e.g., where a character appearing somewhere a sequence can influence what should be a different character much much later in the sequence.
@@ -13,18 +13,18 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
 * optimizer: Adam optimizer
 * Loss function: categorical cross-entropy (for multi-class classification)
 
-<img align='middle' src="docs/8.rnn.png" width="90%" height="300">
+<img align='middle' src="docs/2.music_gen.jpg" width="90%" height="300">
 
 
 ## How to Setup DEV Environment
 ### On Mac/Linux/Windows 10
 1. Install Docker. refer [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/dockerfiles/dockerfiles/cpu.Dockerfile) for the cpu dockerfile generation.
-2. Clone the shakespeare-poems repository.
-3. In the 2.Shakespeare_poems dir, run below script to build docker image for testing:
+2. Clone the improvise-solo-music repository.
+3. In the 3.improvise_solo_music dir, run below script to build docker image for testing:
     ```
-    docker build -t shakespeare-poem .
+    docker build -t improvise-solo-music .
     ```
-4. In the 1.dinosaurus_name dir, run below scrip to run unit test:
+4. In the 3.improvise_solo_music dir, run below scrip to run unit test:
 
     a) For Mac/Linux:
     ```
