@@ -9,6 +9,7 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
 * Reshape(): Reshapes an output to a certain shape.
 * LSTM(): Long Short-Term Memory layer
 * Dense(): A regular fully-connected neural network layer.
+* Lambda layer
 
 <img align='middle' src="docs/8.rnn.png" width="90%" height="300">
 
