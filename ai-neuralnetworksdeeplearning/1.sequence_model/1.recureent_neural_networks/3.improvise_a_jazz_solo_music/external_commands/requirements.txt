@@ -1,0 +1,6 @@
+ipython
+music21
+cython
+numpy
+matplotlib
+keras
