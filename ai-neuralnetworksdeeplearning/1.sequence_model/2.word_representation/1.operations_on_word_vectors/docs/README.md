@@ -7,11 +7,12 @@ This project is to implement a model that uses an LSTM to generate music. We wil
 * Modify word embeddings to reduce their gender bias
 
 ## Techniques
-* Use Keras to implement, include:
-* Reshape(): Reshapes an output to a certain shape.
-* LSTM(): Long Short-Term Memory layer
-* Dense(): A regular fully-connected neural network layer.
-* Lambda layer
+* one-hot vectors do not do a good job of capturing the level of similarity between words (every one-hot vector has the same Euclidean 
+  distance from any other one-hot vector).
+* Embedding vectors such as GloVe vectors provide much more useful information about the meaning of individual words.
+* Cosine similarity: is a good way to compare the similarity between pairs of word vectors, L2 (Euclidean) distance also works.
+* For NLP applications, using a pre-trained set of word vectors is often a good way to get started..
+* Debiasing word vectors
 * optimizer: Adam optimizer
 * Loss function: categorical cross-entropy (for multi-class classification)
 
