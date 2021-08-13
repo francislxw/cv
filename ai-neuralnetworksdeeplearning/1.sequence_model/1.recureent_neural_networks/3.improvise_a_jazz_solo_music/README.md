@@ -1,5 +1,5 @@
 # Improvise a Jazz Solo with an LSTM Network
-<img align='right' src="docs/3.1.jazz.jpg" height="300" width="250" >
+<img align='right' src="docs/3.1.jazz.jpg" height="250" width="350" >
 This project is to implement a model that uses an LSTM to generate music. We will even be able to listen to your own music at the end of the assignment. 
 
 * Apply an LSTM to music generation.
@@ -14,7 +14,7 @@ This project is to implement a model that uses an LSTM to generate music. We wil
 * optimizer: Adam optimizer
 * Loss function: categorical cross-entropy (for multi-class classification)
 
-<img align='middle' src="docs/2.music_gen.jpg" width="90%" height="300">
+<img align='middle' src="docs/2.music_gen.png" width="90%" height="300">
 
 
 ## How to Setup DEV Environment
