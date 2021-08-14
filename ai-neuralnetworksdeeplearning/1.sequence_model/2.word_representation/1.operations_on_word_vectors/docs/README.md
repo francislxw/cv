@@ -5,6 +5,8 @@ This project is to learn and practise word embedding relative knowledge. We will
 * Use word embeddings to solve word analogy problems such as Man is to Woman as King is to __.
 * Modify word embeddings to reduce their gender bias
 
+<img align='middle' src="docs/1.cosine_sim.png" width="90%" height="300">
+
 ## Techniques
 * one-hot vectors do not do a good job of capturing the level of similarity between words (every one-hot vector has the same Euclidean 
   distance from any other one-hot vector).
@@ -13,7 +15,7 @@ This project is to learn and practise word embedding relative knowledge. We will
 * For NLP applications, using a pre-trained set of word vectors is often a good way to get started..
 * Debiasing word vectors
 
-<img align='middle' src="docs/2.music_gen.jpg" width="90%" height="300">
+<img align='middle' src="docs/2.neutralize.png" width="90%" height="300">
 
 
 ## How to Setup DEV Environment
