@@ -1,6 +1,5 @@
 # Operations on word vectors - word embeddings
-<img align='right' src="docs/3.1.jazz.jpg" height="250" width="350" >
-This project is to implement a model that uses an LSTM to generate music. We will even be able to listen to your own music at the end of the assignment. 
+This project is to learn and practise word embedding relative knowledge. We will even be able to listen to your own music at the end of the assignment. 
 
 * Load pre-trained word vectors, and measure similarity using cosine similarity
 * Use word embeddings to solve word analogy problems such as Man is to Woman as King is to __.
