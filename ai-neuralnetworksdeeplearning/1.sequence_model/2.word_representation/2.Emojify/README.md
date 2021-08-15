@@ -11,12 +11,9 @@ the algorithm will be able to generalize and associate additional words in the t
 <img align='middle' src="docs/1.cosine_sim.png" width="90%" height="300">
 
 ## Techniques
-* one-hot vectors do not do a good job of capturing the level of similarity between words (every one-hot vector has the same Euclidean 
-  distance from any other one-hot vector).
-* Embedding vectors such as GloVe vectors provide much more useful information about the meaning of individual words.
-* Cosine similarity: is a good way to compare the similarity between pairs of word vectors, L2 (Euclidean) distance also works.
-* For NLP applications, using a pre-trained set of word vectors is often a good way to get started..
-* Debiasing word vectors
+* Convert each word in the input sentence into their word vector representations.
+* Then take an average of the word vectors.
+* Similar to the previous exercise, we will use pre-trained 50-dimensional GloVe embeddings.
 
 <img align='middle' src="docs/2.neutralize.png" width="90%" height="300">
 
