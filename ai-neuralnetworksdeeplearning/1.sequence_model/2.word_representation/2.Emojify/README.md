@@ -1,9 +1,10 @@
-# Emojify by word embeddings
+# Emojify by Word Vectors
 This project is going to use word vector representations to build an Emojifier. 
 
-* Load pre-trained word vectors, and measure similarity using cosine similarity
-* Use word embeddings to solve word analogy problems such as Man is to Woman as King is to __.
-* Modify word embeddings to reduce their gender bias
+When using word vectors, we'll see that even if the training set explicitly relates only a few words to a particular emoji, 
+the algorithm will be able to generalize and associate additional words in the test set to the same emoji.
+* This works even if those additional words don't even appear in the training set.
+* This allows you to build an accurate classifier mapping from sentences to emojis, even using a small training set.
 
 <img align='middle' src="docs/1.cosine_sim.png" width="90%" height="300">
 
