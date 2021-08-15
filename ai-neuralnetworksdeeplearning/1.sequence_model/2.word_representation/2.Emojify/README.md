@@ -1,5 +1,7 @@
-# Emojify by Word Vectors
-This project is going to use word vector representations to build an Emojifier. 
+# Emojify by Word Vectors/Embedding
+This project is going to use word vector representations to build an Emojifier. includes:
+1. Start with a baseline model (Emojifier-V1) using word embeddings. 
+2. Build a more sophisticated model (Emojifier-V2) that further incorporates an LSTM.
 
 When using word vectors, we'll see that even if the training set explicitly relates only a few words to a particular emoji, 
 the algorithm will be able to generalize and associate additional words in the test set to the same emoji.
