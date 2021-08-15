@@ -21,6 +21,7 @@ the algorithm will be able to generalize and associate additional words in the t
 
 * In V2, the model will feed word embeddings into an LSTM.
 * In V2, the LSTM will learn to predict the most appropriate emoji.
+* Use padding for the same length of the mini-batch
 
 <img align='middle' src="docs/2.neutralize.png" width="90%" height="300">
 
