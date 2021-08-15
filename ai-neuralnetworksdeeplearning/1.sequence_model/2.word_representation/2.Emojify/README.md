@@ -14,6 +14,10 @@ the algorithm will be able to generalize and associate additional words in the t
 * Convert each word in the input sentence into their word vector representations.
 * Then take an average of the word vectors.
 * Similar to the previous exercise, we will use pre-trained 50-dimensional GloVe embeddings.
+* Because adore has a similar embedding as love, the algorithm has generalized correctly even to a word it has never seen before.
+* Words such as heart, dear, beloved or adore have embedding vectors similar to love.
+* In V1, the algorithm ignores word ordering, so is not good at understanding phrases like "not happy."
+* In V1, it just averages all the words' embedding vectors together, without considering the ordering of words.
 
 <img align='middle' src="docs/2.neutralize.png" width="90%" height="300">
 
