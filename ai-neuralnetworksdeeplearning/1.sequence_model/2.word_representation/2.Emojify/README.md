@@ -19,6 +19,9 @@ the algorithm will be able to generalize and associate additional words in the t
 * In V1, the algorithm ignores word ordering, so is not good at understanding phrases like "not happy."
 * In V1, it just averages all the words' embedding vectors together, without considering the ordering of words.
 
+* In V2, the model will feed word embeddings into an LSTM.
+* In V2, the LSTM will learn to predict the most appropriate emoji.
+
 <img align='middle' src="docs/2.neutralize.png" width="90%" height="300">
 
 
