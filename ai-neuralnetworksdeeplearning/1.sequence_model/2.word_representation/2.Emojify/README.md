@@ -8,7 +8,7 @@ the algorithm will be able to generalize and associate additional words in the t
 * This works even if those additional words don't even appear in the training set.
 * This allows you to build an accurate classifier mapping from sentences to emojis, even using a small training set.
 
-<img align='middle' src="docs/1.cosine_sim.png" width="90%" height="300">
+<img align='middle' src="docs/1.data_set.jpg" width="90%" height="380">
 
 ## Techniques
 * Convert each word in the input sentence into their word vector representations.
@@ -18,12 +18,14 @@ the algorithm will be able to generalize and associate additional words in the t
 * Words such as heart, dear, beloved or adore have embedding vectors similar to love.
 * In V1, the algorithm ignores word ordering, so is not good at understanding phrases like "not happy."
 * In V1, it just averages all the words' embedding vectors together, without considering the ordering of words.
+* 
+<img align='middle' src="docs/2.emo_model.jpg" width="90%" height="330">
 
 * In V2, the model will feed word embeddings into an LSTM.
 * In V2, the LSTM will learn to predict the most appropriate emoji.
 * Use padding for the same length of the mini-batch
 
-<img align='middle' src="docs/2.neutralize.png" width="90%" height="300">
+<img align='middle' src="docs/3.emojifier-v2.png" width="90%" height="500">
 
 
 ## How to Setup DEV Environment
