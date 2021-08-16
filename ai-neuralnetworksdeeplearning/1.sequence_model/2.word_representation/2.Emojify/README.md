@@ -46,10 +46,10 @@ the algorithm will be able to generalize and associate additional words in the t
     ```
 5. python version:3.6~3.8 (V3.6 here)
 ## Experiment Result
-* emojify_v1 result
+### emojify_v1 result
 ```
 luoxi@XIAWUs-MacBook-Pro 2.2.Emojify % ./run_ai.sh
-----deep-learning:emojify_v1----
+----deep-learning:emojify_v1/v2----
 never talk to me again 😞
 I am proud of your achievements 😄
 It is the worst day in my life 😞
@@ -122,4 +122,67 @@ Actual
 4            0    0    1    0    6    7
 All          9    9   19   13    6   56
 
+```
+
+### emojify_v2 result
+```
+luoxi@XIAWUs-MacBook-Pro 2.2.Emojify % ./run_ai.sh
+no such directory
+----deep-learning:emojify_v1/v2----
+0 I
+1 like
+2 learning
+X1 = ['funny lol' 'lets play baseball' 'food is ready for you']
+X1_indices =
+ [[155345. 225122.      0.      0.      0.]
+ [220930. 286375.  69714.      0.      0.]
+ [151204. 192973. 302254. 151349. 394475.]]
+weights[0][1][3] = -0.3403
+Model: "functional_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         [(None, 10)]              0         
+_________________________________________________________________
+embedding_1 (Embedding)      (None, 10, 50)            20000050  
+_________________________________________________________________
+lstm (LSTM)                  (None, 10, 128)           91648     
+_________________________________________________________________
+dropout (Dropout)            (None, 10, 128)           0         
+_________________________________________________________________
+lstm_1 (LSTM)                (None, 128)               131584    
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 128)               0         
+_________________________________________________________________
+dense (Dense)                (None, 5)                 645       
+_________________________________________________________________
+activation (Activation)      (None, 5)                 0         
+=================================================================
+Total params: 20,223,927
+Trainable params: 223,877
+Non-trainable params: 20,000,050
+_________________________________________________________________
+Epoch 1/50
+5/5 [==============================] - 0s 10ms/step - loss: 1.5828 - accuracy: 0.2348
+Epoch 2/50
+5/5 [==============================] - 0s 10ms/step - loss: 1.4928 - accuracy: 0.3788
+Epoch 3/50
+5/5 [==============================] - 0s 12ms/step - loss: 1.4472 - accuracy: 0.3485
+Epoch 49/50
+5/5 [==============================] - 0s 11ms/step - loss: 0.0163 - accuracy: 1.0000
+Epoch 50/50
+5/5 [==============================] - 0s 11ms/step - loss: 0.0101 - accuracy: 1.0000
+2/2 [==============================] - 0s 2ms/step - loss: 0.6361 - accuracy: 0.8393
+
+Test accuracy =  0.8392857313156128
+Expected emoji:😄 prediction: he got a very nice raise	❤️
+Expected emoji:😄 prediction: she got me a nice present	❤️
+Expected emoji:😞 prediction: work is hard	😄
+Expected emoji:😞 prediction: This girl is messing with me	❤️
+Expected emoji:😞 prediction: work is horrible	😄
+Expected emoji:🍴 prediction: any suggestions for dinner	😄
+Expected emoji:😄 prediction: you brighten my day	❤️
+Expected emoji:😞 prediction: she is a bully	❤️
+Expected emoji:🍴 prediction: I did not have breakfast ❤️
+not feeling happy 😞
 ```
