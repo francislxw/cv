@@ -1,0 +1,9 @@
+ipython
+music21
+cython
+numpy
+matplotlib
+emoji
+pandas
+scikit-learn
+keras
