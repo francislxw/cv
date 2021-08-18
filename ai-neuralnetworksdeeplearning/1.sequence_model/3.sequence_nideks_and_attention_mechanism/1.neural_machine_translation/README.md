@@ -1,12 +1,7 @@
 # Neural Machine Translation
-This project is going to use word vector representations to build an Emojifier. includes:
-1. Start with a baseline model (Emojifier-V1) using word embeddings. 
-2. Build a more sophisticated model (Emojifier-V2) that further incorporates an LSTM.
-
-When using word vectors, we'll see that even if the training set explicitly relates only a few words to a particular emoji, 
-the algorithm will be able to generalize and associate additional words in the test set to the same emoji.
-* This works even if those additional words don't even appear in the training set.
-* This allows you to build an accurate classifier mapping from sentences to emojis, even using a small training set.
+This project is to build a Neural Machine Translation (NMT) model to translate human-readable dates ("25th of June, 2009") 
+into machine-readable dates ("2009-06-25").
+You will do this using an attention model, one of the most sophisticated sequence-to-sequence models.
 
 <img align='middle' src="docs/1.data_set.jpg" width="90%" height="380">
 
