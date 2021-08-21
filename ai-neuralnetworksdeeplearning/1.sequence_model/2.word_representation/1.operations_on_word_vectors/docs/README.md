@@ -26,7 +26,7 @@ This project is to learn and practise word embedding relative knowledge. We will
     ```
     docker build -t wordvectors-embeddings .
     ```
-4. In the wordvectors-embeddings dir, run below scrip to run unit test:
+4. In the wordvectors-embeddings dir, run below scrip to launch the project:
 
     a) For Mac/Linux:
     ```
