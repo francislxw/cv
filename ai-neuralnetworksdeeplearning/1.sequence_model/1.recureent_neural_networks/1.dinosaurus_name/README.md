@@ -29,7 +29,7 @@ Sample function is to sample characters which will include 4 steps.
     ```
     docker build -t dinosaurus-name .
     ```
-4. In the 1.dinosaurus_name dir, run below scrip to run unit test:
+4. In the 1.dinosaurus_name dir, run below scrip to launch the project:
 
     a) For Mac/Linux:
     ```
