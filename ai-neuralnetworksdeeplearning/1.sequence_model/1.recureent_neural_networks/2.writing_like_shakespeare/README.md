@@ -20,7 +20,7 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
     ```
     docker build -t shakespeare-poem .
     ```
-4. In the 2.Shakespeare_poems dir, run below scrip to run unit test:
+4. In the 2.Shakespeare_poems dir, run below scrip to launch the project:
 
     a) For Mac/Linux:
     ```
