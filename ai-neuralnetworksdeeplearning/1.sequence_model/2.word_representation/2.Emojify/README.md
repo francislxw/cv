@@ -36,7 +36,7 @@ the algorithm will be able to generalize and associate additional words in the t
     ```
     docker build -t emojify .
     ```
-4. In the wordvectors-embeddings dir, run below scrip to run unit test:
+4. In the wordvectors-embeddings dir, run below scrip to launch the project:
 
     a) For Mac/Linux:
     ```
