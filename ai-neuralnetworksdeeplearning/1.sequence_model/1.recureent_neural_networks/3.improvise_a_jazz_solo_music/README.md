@@ -25,7 +25,7 @@ This project is to implement a model that uses an LSTM to generate music. We wil
     ```
     docker build -t improvise-solo-music .
     ```
-4. In the 3.improvise_solo_music dir, run below scrip to run unit test:
+4. In the 3.improvise_solo_music dir, run below scrip to launch the project:
 
     a) For Mac/Linux:
     ```
