@@ -7,11 +7,10 @@ or turns on a network connected lamp in your house, or triggers some other event
 <img align='middle' src="docs/2.attn_model.png" width="80%" height="380">
 
 ## Techniques
-* experiment with these models without using massive datasets, we will perform a simpler "date translation" task.
-* The network will input a date written in a variety of possible formats (e.g. "the 29th of August 1958", "03/30/1968", "24 JUNE 1987")
-* The network will translate them into standardized, machine readable dates (e.g. "1958-08-29", "1968-03-30", "1987-06-24").
-* We will have the network learn to output dates in the common machine-readable format YYYY- MM-DD.
-* 
+* Structure a speech recognition project
+* Synthesize and process audio recordings to create train/dev datasets
+* Train a trigger word detection model and make predictions
+
 <img align='middle' src="docs/1.attn_mechanism.png" width="70%" height="330">
 
 ## How to Setup DEV Environment
