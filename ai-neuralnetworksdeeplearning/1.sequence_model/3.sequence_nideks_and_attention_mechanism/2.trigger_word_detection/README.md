@@ -14,6 +14,7 @@ or turns on a network connected lamp in your house, or triggers some other event
 * The spectrogram we computed tells us how much different frequencies are present in an audio clip at any moment in time.
 * Trigger word detection that updating several consecutive time steps can make the training data more balanced
 * Any newly inserted segment doesn't overlap with previously inserted segments.
+* Build a network that will ingest a spectrogram and output a signal when it detects the trigger word.
 
 <img align='middle' src="docs/1.attn_mechanism.png" width="70%" height="330">
 
