@@ -10,8 +10,9 @@ or turns on a network connected lamp in your house, or triggers some other event
 * Structure a speech recognition project
 * Synthesize and process audio recordings to create train/dev datasets
 * Train a trigger word detection model and make predictions
-* use audio sampled at 44100 Hertz，means the microphone gives us 44,100 numbers per second
+* Use audio sampled at 44100 Hertz，means the microphone gives us 44,100 numbers per second
 * The spectrogram we computed tells us how much different frequencies are present in an audio clip at any moment in time.
+* Trigger word detection that updating several consecutive time steps can make the training data more balanced
 
 <img align='middle' src="docs/1.attn_mechanism.png" width="70%" height="330">
 
