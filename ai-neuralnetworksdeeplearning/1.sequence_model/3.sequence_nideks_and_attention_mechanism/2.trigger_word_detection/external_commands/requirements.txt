@@ -1,0 +1,17 @@
+ipython
+music21
+cython
+numpy
+matplotlib
+faker
+tqdm
+babel
+pandas
+scikit-learn
+
+pydub
+scipy
+wavfile
+ffmpeg
+
+keras
