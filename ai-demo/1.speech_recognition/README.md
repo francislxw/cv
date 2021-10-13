@@ -1,5 +1,5 @@
-# Speech Recognization - Chinese Audio to Chinese Words
-This project is to learn and practise reconginzing Chinese Audio and transfering it to the Chinese words, accurancy is over 80%, can be deployed easily.
+# Speech Recognition - Chinese Audio to Chinese Words
+This project is to learn and practise recongnizing Chinese Audio and transfering it to the Chinese words, accurancy is over 80%, can be deployed easily.
 
 * Audio recording from terminal in the client webpage
 * Transfer to Chinese words timely in the server, show results to the front web page.
@@ -17,13 +17,13 @@ This project is to learn and practise reconginzing Chinese Audio and transfering
 ## How to Setup DEV Environment
 ### On Mac/Linux/Windows 10
 1. Install Docker. refer [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/dockerfiles/dockerfiles/cpu.Dockerfile) for the cpu dockerfile generation.
-2. Clone speech_recognization repository.
+2. Clone speech_recognition repository.
 #### I. Client
-3. In the speech_recognization dir, run below script to build docker image for testing:
+3. In the speech_recognition dir, run below script to build docker image for testing:
     ```
-    docker build -t speech_recognization .
+    docker build -t speech_recognition .
     ```
-4. In the speech_recognization dir, run below scrip to launch the project:
+4. In the speech_recognition dir, run below scrip to launch the project:
 
     a) For Mac/Linux:
     ```
@@ -34,11 +34,11 @@ This project is to learn and practise reconginzing Chinese Audio and transfering
     run_ai.bat
     ```
 #### II. Web
-5. In the speech_recognization dir, run below script to build docker image for testing:
+5. In the speech_recognition dir, run below script to build docker image for testing:
     ```
-    docker build -t speech_recognization .
+    docker build -t speech_recognition .
     ```
-6. In the speech_recognization dir, run below scrip to launch the project:
+6. In the speech_recognition dir, run below scrip to launch the project:
 
     a) For Mac/Linux:
     ```
@@ -65,3 +65,10 @@ small -> smaller :: big -> competitors
  -0.06042     0.32988     0.46144    -0.35962     0.31102    -0.86824
   0.96006     0.01073     0.24337     0.08193    -1.02722    -0.21122
   0.695044   -0.00222     0.29106     0.5053     -0.099454    0.40445
+
+```
+# Reference
+* [PCM Data Instroduction](https://www.freesion.com/article/3558299162/)
+* [ASRT_SpeechRecognition](https://gitee.com/ailemon/ASRT_SpeechRecognition)
+* [ASRT Speech Reconition Sys Doc](https://asrt.ailemon.net/docs/)
+* [Audio format Instros & Translation from PCM to WAV](https://www.freesion.com/article/3558299162/)
