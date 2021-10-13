@@ -10,8 +10,8 @@ This project is to learn and practise recongnizing Chinese Audio and transfering
 * Client: Docker(docker compose) + Nginx(Reverse Proxy) + Tomcat, java servelet + eclipse, js + html
 * Server: Docker(docker compose) + Nginx(Reverse Proxy) + Django + djangorestframework, js + html, python, tensorflow 
 * Audio encoding: WAV encoding headers + PCM data, refer [details](https://www.freesion.com/article/3558299162/)
-* Convolutional neural network,[CNN](https://www.coursera.org/learn/convolutional-neural-networks)
-* Connectionist Temporal Classification,[CTC](https://www.cnblogs.com/shiyublog/p/10493348.html)
+* Convolutional neural network, [CNN](https://www.coursera.org/learn/convolutional-neural-networks)
+* Connectionist Temporal Classification, [CTC](https://www.cnblogs.com/shiyublog/p/10493348.html)
 
 <img align='middle' src="docs/2.neutralize.png" width="90%" height="300">
 
