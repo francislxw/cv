@@ -1,7 +1,7 @@
 # Speech Recognition - Chinese Audio to Chinese Words
 This project is to learn and practise recongnizing Chinese Audio and transfering it to the Chinese words, accurancy is over 80%, can be deployed easily.
 
-* Audio recording from terminal in the client webpage
+* Audio recording from terminal in the client webpage (SampleRate:16000hz,bitRate:16kbps)
 * Transfer to Chinese words timely in the server, show results to the front web page.
 
 <img align='middle' src="docs/1.cosine_sim.png" width="90%" height="300">
