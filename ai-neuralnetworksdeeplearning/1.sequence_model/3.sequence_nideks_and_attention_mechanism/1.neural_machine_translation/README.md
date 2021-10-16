@@ -4,7 +4,7 @@ into machine-readable dates ("2009-06-25").
 
 You will do this using an attention model, one of the most sophisticated sequence-to-sequence models.
 
-<img align='middle' src="docs/2.attn_model.png" width="80%" height="480">
+<img align='middle' src="docs/2.attn_model.png" width="80%" height="580">
 
 ## Techniques
 * experiment with these models without using massive datasets, we will perform a simpler "date translation" task.
@@ -12,7 +12,7 @@ You will do this using an attention model, one of the most sophisticated sequenc
 * The network will translate them into standardized, machine readable dates (e.g. "1958-08-29", "1968-03-30", "1987-06-24").
 * We will have the network learn to output dates in the common machine-readable format YYYY- MM-DD.
 * 
-<img align='middle' src="docs/1.attn_mechanism.png" width="70%" height="530">
+<img align='middle' src="docs/1.attn_mechanism.png" width="70%" height="630">
 
 ## How to Setup DEV Environment
 ### On Mac/Linux/Windows 10
