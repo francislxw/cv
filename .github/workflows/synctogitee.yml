@@ -1,0 +1,43 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Sync to Gitee
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  delete:
+    branches: [ main ]
+  create:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Sync to gitee
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+        with:
+          source-repo: "git@github.com:francislxw/cv.git"
+          destination-repo: "git@gitee.com:francislxw/cv.git"
+
+      #- name: Reload Gitee Pages  
+      #  uses: mizuka-wu/gitee-pages-action@v1.0.0
+      #  with:
+      #    repository: ant-design-blazor/ant-design-blazor
+      #    cookie: ${{ secrets.GITEE_COOKIE }}
+      #    branch: gh-pages
