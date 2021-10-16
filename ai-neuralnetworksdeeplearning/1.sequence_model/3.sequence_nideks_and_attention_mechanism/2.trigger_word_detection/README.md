@@ -4,7 +4,7 @@ This project will construct a speech dataset and implement an algorithm for trig
 Perhaps you can also extend it to run on your laptop so that every time you say "activate" it starts up your favorite app, 
 or turns on a network connected lamp in your house, or triggers some other event?
 
-<img align='middle' src="docs/sound.jpg" width="80%" height="500">
+<img align='middle' src="docs/sound.jpg" width="80%" height="300">
 
 ## Techniques
 * Structure a speech recognition project
@@ -18,7 +18,7 @@ or turns on a network connected lamp in your house, or triggers some other event
 * F1 score or Precision/Recall
 * non-max suppression
 
-<img align='middle' src="docs/model.png" width="80%" height="630">
+<img align='middle' src="docs/model.png" width="80%" height="530">
 
 ## How to Setup DEV Environment
 ### On Mac/Linux/Windows 10
