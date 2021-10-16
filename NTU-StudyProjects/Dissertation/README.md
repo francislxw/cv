@@ -110,4 +110,4 @@ Computer Graphics | OpenGL | C/C++ | Windows API
 
 ### Refinement | to-do
 
-* Change the usage of map to unordered_map, which will be more efficient and faster, do you know why???
+* Change the usage of map to unordered_map, which will be more efficient and faster.
