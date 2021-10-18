@@ -4,11 +4,12 @@
 ## Course Syllabus
 |Time|Contents||Time|Contents|
 |-|-|-|-|-|
-|W2|Linear Regression with Multiple Variables||W7|SVM|
-|W3|Classification||W8|Clustering|
-|W4|Neural Network||W9|Anomaly Detection|
-|W5|CostFunction Backpropagation||W10|Gradient Descent with Large Datasets|
-|W6|Evaluating Learning Algorithm||W11|Photo OCR|
+|W1|Linear Regression with One Variable||W7|SVM|
+|W2|Linear Regression with Multiple Variables||W8|Clustering|
+|W3|Classification||W9|Anomaly Detection|
+|W4|Neural Network||W10|Gradient Descent with Large Datasets|
+|W5|CostFunction Backpropagation||W11|Photo OCR|
+|W6|Evaluating Learning Algorithm|||
 
 ## Accomplishment
 <img align='left' src="./docs/ML.Certificate.png" width="900" height="450">
