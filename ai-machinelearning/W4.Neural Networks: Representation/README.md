@@ -9,4 +9,4 @@ Neural networks is a model inspired by how the brain works. It is widely used to
 * Examples and Intuitions II
 * Multiclass Classification
 ## Accomplishment
-<img align='middle' src="../docs/ML.W4.png" width="1067" height="350">
+<img align='middle' src="../docs/ML.W4.png" width="1067" height="300">
