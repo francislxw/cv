@@ -9,4 +9,4 @@ Linear regression predicts a real-valued output based on an input value. We disc
 * Gradient Descent Intuition
 * Gradient Descent For Linear Regression
 ## Accomplishment
-<img align='middle' src="../docs/ML.W2.png" width="1067" height="450">
+<img align='middle' src="../docs/ML.W1.1.png" width="1067" height="450">
