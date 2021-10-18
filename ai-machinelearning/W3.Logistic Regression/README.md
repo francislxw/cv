@@ -8,5 +8,10 @@ Logistic regression is a method for classifying data into discrete outcomes. For
 * Simplified Cost Function and Gradient Descent
 * Advanced Optimization
 * Multiclass Classification: One-vs-all
+#### Regularization
+* The Problem of Overfitting
+* Cost Function
+* Regularized Linear Regression
+* Regularized Logistic Regression
 ## Accomplishment
 <img align='middle' src="../docs/ML.W3.png" width="1067" height="450">
