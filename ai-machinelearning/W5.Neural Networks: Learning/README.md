@@ -10,4 +10,4 @@ In this module, we introduce the backpropagation algorithm that is used to help 
 * Putting It Together
 * Autonomous Driving
 ## Accomplishment
-<img align='middle' src="../docs/ML.W5.png" width="1067" height="450">
+<img align='middle' src="../docs/ML.W5.png" width="1067" height="350">
