@@ -1,6 +1,7 @@
-## Courses
-[<img align='left' src="../docs/Stanford.U4.png" width="467" height="80">](https://www.coursera.org/lecture/machine-learning/welcome-to-machine-learning-zcAuT)<br />
 
+[<img align='left' src="../docs/Stanford.U4.png" width="467" height="80">](https://www.coursera.org/lecture/machine-learning/welcome-to-machine-learning-zcAuT)
+<br/><br/><br/>
+## Course Syllabus
 |Time|Contents||Time|Contents|
 |-|-|-|-|-|
 |W2|Linear Regression with Multiple Variables||W7|SVM|
