@@ -8,4 +8,4 @@ Support vector machines, or SVMs, is a machine learning algorithm for classifica
 * Kernels II
 * Using An SVM
 ## Accomplishment
-<img align='middle' src="../docs/ML.W7.png" width="1067" height="300">
+<img align='middle' src="../docs/ML.W7.png" width="1067" height="280">
