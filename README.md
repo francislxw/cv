@@ -175,7 +175,7 @@ Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
 
 **React +Node.js front-end programming** 
 
-Ruby-smal + OKTA (SAML2) to implement the log in user administrator identity confirmation
+Ruby-smal + OKTA (SAML2) to implement the <log in> user administrator identity confirmation
 
 **Rest API implementation** | ruby | typescript | Redis + Sidekiq
 
