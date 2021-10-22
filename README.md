@@ -167,9 +167,9 @@ Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
 
 * Docker + Ansible to control all ECS machines +set up build environment (software version control)
 
-* Implement dashboard to monitor above build status.
+* Implement dashboard to monitor build status of above listed products.
 
-* Branch build scheduler for SWD team, to validate their code changes form their own branches
+* Branch build scheduler for SWD team, to validate their code changes from their own branches
 
 * Etc.
 
