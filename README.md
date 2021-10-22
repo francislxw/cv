@@ -143,7 +143,7 @@ AI is transforming many industries. The Deep Learning Specialization provides a 
 
 ## Detailed Working Experiences
 
-**Two generations of Automation Build Process for most desktop products of Autodesk**
+**Two generations of Automation Build Process for Autodesk major desktop products**
 
 I. Decouple VB build tool (pay for license) to PERL scripts by us, plus build dashboard, SCM: P4
 
