@@ -157,7 +157,9 @@ II Decouple scripts to groovy/python, with Jenkins pipeline, plus build dashboar
 
 * Automatically error checking from logs.
 
-* Notify respective committers correctly.
+* Notify build failures to respective committers correctly.
+
+* Post masters/binaries to different sites globally for QA validate & DEV debug usage.
 
 **Mainly for the following products:**
 
