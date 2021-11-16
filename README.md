@@ -191,9 +191,9 @@ Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
 
 * Validation result of new builds will be shown on the dashboard, including new failed test cases number/rate.
 
-* QA team cross-validate new failures, reports to DEV team to fix bug.
+* QA team cross-validates new failures, reports to DEV team to fix bugs.
 
-* DEV team provides fix, validate the new code change with CI build, then put it into repective DEV branch, follow CCB merge etc. process to Release branch.
+* DEV team provides fixes, validates the new code change with CI build, then puts it into repective DEV gti branch, follows CCB merge etc. process to the Release branch.
 
 **Rest API implementation** | ruby | typescript | Redis + Sidekiq
 
