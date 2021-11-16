@@ -1,13 +1,12 @@
-# FFD-Translate from C++ to Javascript WebGL
+# Free Form Deformation with C++
 
-FFD in the the disertation for NTU graduation is implemented in C++, this project is to translate it into web services.
-Implemented by html (web UI part), JavaScript plus WebGL languages.
+FFD in the the disertation for NTU graduation is implemented with OpenGL, C/C++, Windows API.
 
  <img align='middle' src="docs/1.demo.jpg" height="330" width="98%" >    
 
 ## Techniques
 
-* FFD, free-form, deformation, half-tree, lattice, mesh/obj files, threejs, WebGL, JavaScript, html web UI
+* FFD, free-form, deformation, half-tree, lattice, mesh/obj files, threejs, OpenGL | C/C++ | Windows API
 * 3D, graphics, modeling, surfaces, normlas, wireframe, flat, decasteljau, bernstein polynomial, lerp, controlpoints
 * 3D views setup (Canvas, Camera, Scene), interactive editing, mouse pick up points, Raycaster, drag elements
 * World coordinate, local coordinate, screen coordinate, perspectiveCamera, orthographicCamera
