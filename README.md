@@ -248,14 +248,14 @@ Send build results to the slack channel | http POST request (header, body, data)
 
 ## More Working Experiences (>5 years)
 
-[here](https://github.com/francislxw/cv/blob/main/docs/MoreWorkingExperience.md)
+[here](./docs/MoreWorkingExperience.md)
 
 ## Other Highlights
 ### Computer Graphics
-* FFD-Four type dragpoints/[Control Points](https://github.com/francislxw/cv/tree/main/computer-graphics/ffd-dragpoints) 
+* FFD-Four type dragpoints/[Control Points](./computer-graphics/ffd-dragpoints) 
 
 ### Algorigths
 * SkipList
 
 ### AI
-* Speech Recoginization [demo](https://github.com/francislxw/cv/tree/main/ai-demo/1.speech_recognition)
+* Speech Recoginization [demo](./ai-demo/1.speech_recognition)
