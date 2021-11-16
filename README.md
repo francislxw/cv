@@ -239,7 +239,7 @@ Send build results to the slack channel | http POST request (header, body, data)
 * FFD-Four type dragpoints/[Control Points](https://github.com/francislxw/cv/tree/main/computer-graphics/ffd-dragpoints) 
 
 ### Algorigths
-* Jump List
+* SkipList
 
 ### AI
 * Speech Recoginization [demo](https://github.com/francislxw/cv/tree/main/ai-demo/1.speech_recognition)
