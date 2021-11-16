@@ -179,7 +179,21 @@ Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
 
 **React +Node.js front-end programming** 
 
-Ruby-smal + OKTA (SAML2) to implement the administrator user identity confirmation.
+* Ruby-smal + OKTA (SAML2) to implement the administrator user identity confirmation.
+
+* Official/Continues/QA/CI builds scheduling by admin according to DEV's requests.
+
+* Builds will trigger automatically in Jenkinks by services timely.
+
+* Everyone (DEV/QA teams) can monitor builds (Otpmize/Debug/Core) status from the dashboard.
+
+* Each test image with be created with clean master/binaries dynamically to run test cases by service automatically.
+
+* Validation result of new builds will be shown on the dashboard, including new failed test cases number/rate.
+
+* QA team cross-validate new failures, reports to DEV team to fix bug.
+
+* DEV team provides fix, validate the new code change with CI build, then put it into repective DEV branch, follow CCB merge etc. process to Release branch.
 
 **Rest API implementation** | ruby | typescript | Redis + Sidekiq
 
