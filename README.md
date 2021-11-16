@@ -42,7 +42,7 @@ Familiar with C++, python, Perl, Batch, Groovy + UT
 
 Familiar with the principles of basic data structures and algorithms
 
-Learn about Java, Java Script, Type Script, PHP, HTTPS, HTML, XML, CSS, JSON, ASP.net
+Learn about Java, Java Script, Java Servlet, Eclipse, Type Script, PHP, HTTPS, HTML, XML, CSS, JSON, ASP.net
 
 Familiar with Jenkins, Git, Artifactory, CI-CD Pipeline, Perforce, Electrical Cloud
 
