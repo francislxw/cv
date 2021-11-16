@@ -16,7 +16,7 @@
 
 **Nationality:** China
 
-**Current Location:** Singapore
+**Current Location:** Shanghai,China
 
 **Marital Status:** Married
 
@@ -26,7 +26,7 @@
 
 Autodesk Asia Pte Ltd. (ASRD)  | Singapore
 
-November 2011 ~ Present (9 years 5 months)
+November 2011 ~ June 2021 (9 years 5 months)
 
 **Software Engineer (Developer)**
 
@@ -109,7 +109,7 @@ September 2002 ~ March 2005
 
 * Bachelor’s degree, Mechanical Manufacture and Automation, School of Mechanical Engineering
 
-September 2008 ~ July 2002
+September 1998 ~ July 2002
 
 ## E-Learning | ML&NNDL&AI
 
@@ -122,6 +122,7 @@ September 2008 ~ July 2002
 |W4|Neural Network||W9|Anomaly Detection|
 |W5|CostFunction Backpropagation||W10|Gradient Descent with Large Datasets|
 |W6|Evaluating Learning Algorithm||W11|Photo OCR|
+
 
 
 [<img align='middle' src="docs/deeplearning.ai3.png" width="467" height="80">](https://www.coursera.org/specializations/deep-learning?utm_source=deeplearning-ai&utm_medium=institutions&utm_campaign=20210308-dls-2-coursera-partner-promo-tool-dls-refresh)  
