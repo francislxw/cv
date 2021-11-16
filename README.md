@@ -242,4 +242,4 @@ Send build results to the slack channel | http POST request (header, body, data)
 * Jump List
 
 ### AI
-* Speech Recoginization 
+* Speech Recoginization [demo](https://github.com/francislxw/cv/tree/main/ai-demo/1.speech_recognition)
