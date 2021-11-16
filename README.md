@@ -236,6 +236,7 @@ Send build results to the slack channel | http POST request (header, body, data)
 
 ## Other Highlights
 ### Computer Graphics
+* FFD-Four type dragpoints/[Control Points](https://github.com/francislxw/cv/tree/main/computer-graphics/ffd-dragpoints) 
 
 ### Algorigths
 * Jump List
