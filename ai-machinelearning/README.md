@@ -12,4 +12,4 @@
 |W6|Evaluating Learning Algorithm|||
 
 ## Accomplishment
-<img align='left' src="./docs/ML.Certificate.png" width="900" height="450">
+<img align='left' src="/docs/ML.Certificate.png" width="900" height="450">
