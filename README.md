@@ -177,7 +177,7 @@ Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
 
 **React +Node.js front-end programming** 
 
-Ruby-smal + OKTA (SAML2) to implement the <log in> user administrator identity confirmation
+Ruby-smal + OKTA (SAML2) to implement the administrator user identity confirmation.
 
 **Rest API implementation** | ruby | typescript | Redis + Sidekiq
 
@@ -193,7 +193,7 @@ Ruby-smal + OKTA (SAML2) to implement the <log in> user administrator identity c
 
 **Communicate with #Slack**
 
-Send build results to the slack channel http POST request (header, body, data)
+Send build results to the slack channel | http POST request (header, body, data)
 
 **Amazon Web Services** | S3, SQS, Dynamoid, ’aws-sdk’, test/mocking
  
@@ -229,24 +229,24 @@ Send build results to the slack channel http POST request (header, body, data)
 **Hashicorp Packer**
  
 * Microsoft Azure | Azure Image Builder | python-adal | azure-functions | azure-identity | azure-mgmt-imagebuilder | azure-mgmt-resource
+
+## More Detailed Working Experiences (> 5 years ago)
  
- ## More Detailed Working Experiences (> 5 years ago)
- 
- * Projects for master’s degree of Computer Science @ NTU
+### Projects for master’s degree of Computer Science @ NTU
  
  **Project Name:** Interactive Shape Editing
  
- ** Project Duration:** Aug 2013 ~ July 2014
+ **Project Duration:** Aug 2013 ~ July 2014
  
- *Background: 
+ **Background: **
  
  This project is for my master degree on Digital Media Technology program of Nanyang Technological University, it’s accomplished under my supervisor’s instruction, it utilizes what I learned from DM6101 (Introduction to Computer Graphics) and DM6122 (3D Modeling and Reconstruction).
  
- *Project Description:
+ **Project Description:**
  
  Three-dimensional geometric models are the base data for applications in computer graphics, computer aided design, visualization, multimedia, and other related fields, the state-of-the-art interactive shape editing techniques become very popular in recent years, under such condition, and we propose this dissertation to perform some research on this area.
  
- *My Contributions:
+ **My Contributions:**
 1. Discuss with advisor, choose the topic, propose catalogues and ask him help to review then refine it.
  
 2. Develop a pro-type of the Interactive Shape editing system, which includes open mesh file, create control points, free-form deformation etc. functions.
