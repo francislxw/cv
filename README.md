@@ -233,3 +233,12 @@ Send build results to the slack channel | http POST request (header, body, data)
 ## More Working Experiences (>5 years)
 
 [here](https://github.com/francislxw/cv/blob/main/docs/MoreWorkingExperience.md)
+
+## Other Highlights
+### Computer Graphics
+
+### Algorigths
+* Jump List
+
+### AI
+* Speech Recoginization 
