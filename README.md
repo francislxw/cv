@@ -139,7 +139,7 @@ More detailed [accomplishment](ai-neuralnetworksdeeplearning)
 
 **leetcode exercise** @ https://leetcode-cn.com/u/lionsg/ | from Dec,2020 
 
-<img align='middle' src="docs/LetCode.jpg" width="900" height="400"> 
+<img align='middle' src="docs/LetCode.jpg" width="900" height="405"> 
 
 
 
