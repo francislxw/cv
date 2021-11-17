@@ -133,7 +133,7 @@ AI is transforming many industries. The Deep Learning Specialization provides a 
 **Skills learned:**
 <img align='middle' src="docs/dp_skill.png" width="600" height="150"> 
 
-More detailed [accomplishment](https://github.com/francislxw/cv/tree/main/ai-neuralnetworksdeeplearning)
+More detailed [accomplishment](ai-neuralnetworksdeeplearning)
 
 ## E-Practice
 
