@@ -123,7 +123,7 @@ September 1998 ~ July 2002
 |W5|CostFunction Backpropagation||W10|Gradient Descent with Large Datasets|
 |W6|Evaluating Learning Algorithm||W11|Photo OCR|
 
-More detailed [accomplishment](https://github.com/francislxw/cv/tree/main/ai-machinelearning)
+More detailed [accomplishment](ai-machinelearning)
 
 [<img align='middle' src="docs/deeplearning.ai3.png" width="467" height="80">](https://www.coursera.org/specializations/deep-learning?utm_source=deeplearning-ai&utm_medium=institutions&utm_campaign=20210308-dls-2-coursera-partner-promo-tool-dls-refresh)  
 
