@@ -44,6 +44,8 @@ Familiar with the principles of basic data structures and algorithms
 
 Learn about Java, Java Script, Java Servlet, Eclipse, Type Script, PHP, HTTPS, HTML, XML, CSS, JSON, ASP.net
 
+Learn about Ngix, Tomcat, Django
+
 Familiar with Jenkins, Git, Artifactory, CI-CD Pipeline, Perforce, Electrical Cloud
 
 Learn about IaC, Docker, Ansible, AWS, Azure, Linux
