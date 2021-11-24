@@ -22,3 +22,17 @@ chmod +x kubectl
 &emsp;&emsp;It comes the successful result:
 
 &emsp;&emsp;<img src="docs/k8s.succeed.jpg" width="600" height="290"> 
+
+Further verifying by $kubectl get po -A
+
+```
+luoxi@XIAWUs-MacBook-Pro exercises % kubectl get po -A
+NAMESPACE     NAME                               READY   STATUS    RESTARTS   AGE
+kube-system   coredns-7d89d9b6b8-lh9jr           1/1     Running   0          102m
+kube-system   etcd-minikube                      1/1     Running   0          102m
+kube-system   kube-apiserver-minikube            1/1     Running   0          102m
+kube-system   kube-controller-manager-minikube   1/1     Running   0          102m
+kube-system   kube-proxy-78j4z                   1/1     Running   0          102m
+kube-system   kube-scheduler-minikube            1/1     Running   0          102m
+kube-system   storage-provisioner                1/1     Running   0          102m
+```
