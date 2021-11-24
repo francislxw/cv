@@ -20,4 +20,4 @@ chmod +x kubectl
 8. $minikube start --image-mirror-country='cn' --driver docker --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers
 
 [result]
-<img align='right' src="docs/k8s.succeed.jpg" width="600" height="500"> 
+<img align='left' src="docs/k8s.succeed.jpg" width="600" height="500"> 
