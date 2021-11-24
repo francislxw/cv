@@ -44,5 +44,5 @@ kube-system   storage-provisioner                1/1     Running   0          10
 by $ minikube dashboard
 
 <img src="docs/k8s.succeed3.dashboard.cmd.jpg" width="600" height="120">
-<br>
+&emsp;
 <img src="docs/k8s.succeed3.dashboard.jpg" width="1000" height="250">
