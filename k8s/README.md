@@ -23,7 +23,7 @@ chmod +x kubectl
 
 &emsp;&emsp;<img src="docs/k8s.succeed.jpg" width="600" height="290"> 
 
-Further verifying by $kubectl get po -A
+### Further verifying the result by $ kubectl get po -A
 
 ```
 luoxi@XIAWUs-MacBook-Pro exercises % kubectl get po -A
@@ -36,3 +36,7 @@ kube-system   kube-proxy-78j4z                   1/1     Running   0          10
 kube-system   kube-scheduler-minikube            1/1     Running   0          102m
 kube-system   storage-provisioner                1/1     Running   0          102m
 ```
+
+### Enabling dashboard by $ minikube dashboard
+<img src="docs/k8s.succeed3.dashboard.cmd.jpg" width="600" height="120">
+<img src="docs/k8s.succeed3.dashboard.jpg" width="600" height="120">
