@@ -4,7 +4,7 @@
 ```
 deployment.apps/hello-node created
 ```
-<img src="docs/k8s.deployment.succeed.jpg" width="700" height="400"> 
+<img src="../docs/k8s.deployment.succeed.jpg" width="700" height="400"> 
 
 $ kubectl delete deployment hello-node
 ```
