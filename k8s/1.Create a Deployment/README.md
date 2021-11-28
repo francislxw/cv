@@ -10,3 +10,5 @@ $ kubectl delete deployment hello-node
 ```
 deployment.apps "hello-node" deleted
 ```
+
+&emsp;&emsp;<img src="docs/k8s.deployment.succeed.jpg" width="700" height="400"> 
