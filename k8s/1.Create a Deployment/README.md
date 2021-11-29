@@ -64,6 +64,28 @@ service/metrics-server   ClusterIP   10.106.67.18   <none>        443/TCP       
 The 'metrics-server' addon is disabled
 ```
 
+10. $ curl http://172.17.0.107:32423 
+[Verifying this on the Katacoda, since it's not supported in Mac M1 machine]
+```
+CLIENT VALUES:
+client_address=172.18.0.1
+command=GET
+real path=/
+query=nil
+request_version=1.1
+request_uri=http://172.17.0.107:8080/
+
+SERVER VALUES:
+server_version=nginx: 1.10.0 - lua: 10001
+
+HEADERS RECEIVED:
+accept=*/*
+host=172.17.0.107:32423
+user-agent=curl/7.58.0
+BODY:
+-no body in request
+```
+
 # Issues
 
 1. Only docker driver is supported on Mac M1, which will cause an error:
