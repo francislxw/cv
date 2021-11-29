@@ -95,7 +95,11 @@ BODY:
 service "hello-node" deleted
 ```
 
-12. 
+12. $ kubectl delete deployment hello-node
+```
+deployment.apps "hello-node" deleted
+```
+
 # Issues
 
 1. Only docker driver is supported on Mac M1, which will cause an error:
