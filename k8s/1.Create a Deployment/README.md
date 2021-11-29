@@ -65,7 +65,9 @@ The 'metrics-server' addon is disabled
 ```
 
 10. $ curl http://172.17.0.107:32423 
-[Verifying this on the Katacoda, since it's not supported in Mac M1 machine]
+
+&emsp;&emsp;[Verifying this on the Katacoda, since it's not supported in Mac M1 machine]
+
 ```
 CLIENT VALUES:
 client_address=172.18.0.1
@@ -86,6 +88,14 @@ BODY:
 -no body in request
 ```
 
+# Cleanup
+
+11. $ kubectl delete service hello-node
+```
+service "hello-node" deleted
+```
+
+12. 
 # Issues
 
 1. Only docker driver is supported on Mac M1, which will cause an error:
