@@ -63,3 +63,11 @@ service/metrics-server   ClusterIP   10.106.67.18   <none>        443/TCP       
 ```
 The 'metrics-server' addon is disabled
 ```
+
+# Issues
+
+1. Only docker driver is supported on Mac M1, which will cause an error:
+   ```
+   🎉  Opening service default/hello-node in default browser...
+   ❗  Because you are using a Docker driver on darwin, the terminal needs to be open to run it.
+   ```
