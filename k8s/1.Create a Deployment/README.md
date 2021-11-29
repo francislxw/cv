@@ -100,6 +100,21 @@ service "hello-node" deleted
 deployment.apps "hello-node" deleted
 ```
 
+13 $ minikube stop
+```
+✋  Stopping node "minikube"  ...
+🛑  Powering off "minikube" via SSH ...
+🛑  1 node stopped.
+```
+
+14 $ minikube delete
+```
+🔥  Deleting "minikube" in docker ...
+🔥  Deleting container "minikube" ...
+🔥  Removing /Users/luoxi/.minikube/machines/minikube ...
+💀  Removed all traces of the "minikube" cluster.
+```
+
 # Issues
 
 1. Only docker driver is supported on Mac M1, which will cause an error:
