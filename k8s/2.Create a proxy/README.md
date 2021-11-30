@@ -1,4 +1,4 @@
-# Proxy 
+# Kube Proxy 
 
 Proxy runs on each node, proxies UDP, TCP and SCTP, does not understand HTTP, provides load balancing, is only used to reach services
 
