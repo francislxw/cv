@@ -1,6 +1,6 @@
 # Proxy 
 
-Proxy is for the communicationn between Pods, Nodes, is filtered by label
+Proxy runs on each node, proxies UDP, TCP and SCTP, does not understand HTTP, provides load balancing, is only used to reach services
 
 1. $ kubectl proxy
 ```
