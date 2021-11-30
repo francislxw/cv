@@ -1,4 +1,6 @@
-# Proxy is for the communicationn between Pods, Nodes, is filtered by label
+# Proxy 
+
+Proxy is for the communicationn between Pods, Nodes, is filtered by label
 
 1. $ kubectl proxy
 ```
