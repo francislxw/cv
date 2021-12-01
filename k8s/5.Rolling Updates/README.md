@@ -71,13 +71,10 @@ kubernetes-bootcamp-7d44784b7c-ncx6p   1/1     Running            0          13m
 8. $ kubectl describe pods
 ```
 Events:
-  Type    Reason     Age   From               Message
-  ----    ------     ----  ----               -------
-  Normal  Scheduled  14m   default-scheduler  Successfully assigned default/kubernetes-bootcamp-7d44784b7c-ncx6p to minikube
-  Normal  Pulled     14m   kubelet            Container image "jocatalin/kubernetes-bootcamp:v2" already present on machine
-  Normal  Created    14m   kubelet            Created container kubernetes-bootcamp
-  Normal  Started    14m   kubelet            Started container kubernetes-bootcamp
-$
+  Type     Reason     Age              From               Message
+  ----     ------     ----             ----               -------
+  Normal   Scheduled  10s              default-scheduler  Successfully assigned default/kubernetes-bootcamp-59b7598c77-dqzwr to minikube
+  Normal   Pulling    9s               kubelet            Pulling image "gcr.io/google-samples/kubernetes-bootcamp:v10"
 ```
 
 9. $ kubectl rollout undo deployments/kubernetes-bootcamp
