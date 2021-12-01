@@ -2,7 +2,7 @@
 
 Rolling allows Deployments' update to take place with zero downtime by incrementally updating Pods instances with new ones. The new Pods will be scheduled on Nodes with available resources.
 
-Rolling updates allow the following actions:
+### Rolling updates allow the following actions:
 
 Promote an application from one environment to another (via container image updates)
 
