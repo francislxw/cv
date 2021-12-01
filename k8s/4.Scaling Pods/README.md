@@ -65,3 +65,24 @@ $ curl $(minikube ip):$NODE_PORT
 Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-fb5c67579-2zfmk | v=1
 ```
 We hit a different Pod with every request. This demonstrates that the load-balancing is working.
+
+### Scale Down
+
+7. $ kubectl scale deployments/kubernetes-bootcamp --replicas=2
+```
+deployment.apps/kubernetes-bootcamp scaled
+```
+
+8. $ kubectl get deployments
+```
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+kubernetes-bootcamp   2/2     2            2           55m
+```
+
+9. $ kubectl get pods -o wide
+```
+NAME                                  READY   STATUS    RESTARTS   AGE   IP           NODE       NOMINATED NODE   READINESS GATES
+kubernetes-bootcamp-fb5c67579-2zfmk   1/1     Running   0          57m   172.18.0.4   minikube   <none>           <none>
+kubernetes-bootcamp-fb5c67579-4l7g8   1/1     Running   0          51m   172.18.0.9   minikube   <none>           <none>
+```
+The number of replicas decreased to 2, this confirms that 2 Pods were terminated.
