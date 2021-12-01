@@ -49,3 +49,19 @@ Events:
   Normal  ScalingReplicaSet  16m   deployment-controller  Scaled up replica set kubernetes-bootcamp-fb5c67579 to 1
   Normal  ScalingReplicaSet  11m   deployment-controller  Scaled up replica set kubernetes-bootcamp-fb5c67579 to 4
 ```
+
+### Load Balancing
+6 $ curl 172.17.0.36:30105
+```
+$ curl $(minikube ip):$NODE_PORT
+Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-fb5c67579-4l7g8 | v=1
+$ curl $(minikube ip):$NODE_PORT
+Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-fb5c67579-2zfmk | v=1
+$ curl $(minikube ip):$NODE_PORT
+Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-fb5c67579-2zfmk | v=1
+$ curl $(minikube ip):$NODE_PORT
+Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-fb5c67579-vc6rc | v=1
+$ curl $(minikube ip):$NODE_PORT
+Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-fb5c67579-2zfmk | v=1
+```
+We hit a different Pod with every request. This demonstrates that the load-balancing is working.
