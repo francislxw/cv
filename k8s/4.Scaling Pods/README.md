@@ -25,3 +25,27 @@ kubernetes-bootcamp-fb5c67579-4l7g8   1/1     Running   0          9m10s   172.1
 kubernetes-bootcamp-fb5c67579-vc6rc   1/1     Running   0          9m10s   172.18.0.8   minikube   <none>           <none>
 kubernetes-bootcamp-fb5c67579-x645d   1/1     Running   0          9m10s   172.18.0.7   minikube   <none>           <none>
 ```
+
+5. $ kubectl describe deployments/kubernetes-bootcamp
+```
+Name:                   kubernetes-bootcamp
+Namespace:              default
+CreationTimestamp:      Wed, 01 Dec 2021 03:15:51 +0000
+Labels:                 app=kubernetes-bootcamp
+Annotations:            deployment.kubernetes.io/revision: 1
+Selector:               app=kubernetes-bootcamp
+Replicas:               4 desired | 4 updated | 4 total | 4 available | 0 unavailable
+...
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Progressing    True    NewReplicaSetAvailable
+  Available      True    MinimumReplicasAvailable
+OldReplicaSets:  <none>
+NewReplicaSet:   kubernetes-bootcamp-fb5c67579 (4/4 replicas created)
+Events:
+  Type    Reason             Age   From                   Message
+  ----    ------             ----  ----                   -------
+  Normal  ScalingReplicaSet  16m   deployment-controller  Scaled up replica set kubernetes-bootcamp-fb5c67579 to 1
+  Normal  ScalingReplicaSet  11m   deployment-controller  Scaled up replica set kubernetes-bootcamp-fb5c67579 to 4
+```
