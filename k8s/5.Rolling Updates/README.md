@@ -53,3 +53,34 @@ Containers:
     Image:          jocatalin/kubernetes-bootcamp:v2
 ...
 ```
+# Rollback an update
+6. $ kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=gcr.io/google-samples/kubernetes-bootcamp:v10
+```
+deployment.apps/kubernetes-bootcamp image updated
+```
+
+7. $ kubectl get pods
+```
+NAME                                   READY   STATUS             RESTARTS   AGE
+kubernetes-bootcamp-59b7598c77-gwkhr   0/1     ImagePullBackOff   0          104s
+kubernetes-bootcamp-59b7598c77-pnl4v   0/1     ImagePullBackOff   0          104s
+kubernetes-bootcamp-7d44784b7c-c9889   1/1     Running            0          13m
+kubernetes-bootcamp-7d44784b7c-mm6jm   1/1     Running            0          13m
+kubernetes-bootcamp-7d44784b7c-ncx6p   1/1     Running            0          13m
+```
+8. $ kubectl describe pods
+```
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  14m   default-scheduler  Successfully assigned default/kubernetes-bootcamp-7d44784b7c-ncx6p to minikube
+  Normal  Pulled     14m   kubelet            Container image "jocatalin/kubernetes-bootcamp:v2" already present on machine
+  Normal  Created    14m   kubelet            Created container kubernetes-bootcamp
+  Normal  Started    14m   kubelet            Started container kubernetes-bootcamp
+$
+```
+
+9. $ kubectl rollout undo deployments/kubernetes-bootcamp
+```
+deployment.apps/kubernetes-bootcamp rolled back
+```
