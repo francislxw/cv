@@ -40,3 +40,16 @@ Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-7d44784b7c-mm6jm | 
 ```
 deployment "kubernetes-bootcamp" successfully rolled out
 ```
+
+5. $ kubectl describe pods
+```
+Name:         kubernetes-bootcamp-7d44784b7c-c9889
+Namespace:    default
+...
+Controlled By:  ReplicaSet/kubernetes-bootcamp-7d44784b7c
+Containers:
+  kubernetes-bootcamp:
+    Container ID:   docker://791f89d19f6882316b823a55a839c5bfde35024ce1c2a5ba4c6a47488a9e706a
+    Image:          jocatalin/kubernetes-bootcamp:v2
+...
+```
