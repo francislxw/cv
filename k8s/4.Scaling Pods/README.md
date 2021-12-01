@@ -10,3 +10,9 @@ kubernetes-bootcamp-fb5c67579   1         1         1       90s
 ```
 deployment.apps/kubernetes-bootcamp scaled
 ```
+
+3. $ kubectl get deployments
+```
+NAME                  READY   UP-TO-DATE   AVAILABLE   AGE
+kubernetes-bootcamp   4/4     4            4           13m
+```
