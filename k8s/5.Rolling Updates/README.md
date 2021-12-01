@@ -15,3 +15,16 @@ Continuous Integration and Continuous Delivery of applications with zero downtim
 ```
 deployment.apps/kubernetes-bootcamp image updated
 ```
+
+2. $ kubectl get pods
+```
+NAME                                   READY   STATUS        RESTARTS   AGE
+kubernetes-bootcamp-7d44784b7c-c9889   1/1     Running       0          8s
+kubernetes-bootcamp-7d44784b7c-mm6jm   1/1     Running       0          16s
+kubernetes-bootcamp-7d44784b7c-ncx6p   1/1     Running       0          15s
+kubernetes-bootcamp-7d44784b7c-ttsqt   1/1     Running       0          8s
+kubernetes-bootcamp-fb5c67579-5zxjz    1/1     Terminating   0          3m11s
+kubernetes-bootcamp-fb5c67579-8h8hx    1/1     Terminating   0          3m11s
+kubernetes-bootcamp-fb5c67579-hqqrh    1/1     Terminating   0          3m11s
+kubernetes-bootcamp-fb5c67579-w6rx4    1/1     Terminating   0          3m11s
+```
