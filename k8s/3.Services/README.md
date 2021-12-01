@@ -53,3 +53,18 @@ Labels:       app=kubernetes-bootcamp
               pod-template-hash=fb5c67579
               version=v1
 ```
+
+7. $ kubectl delete service -l app=kubernetes-bootcamp (delete a service)
+```
+service "kubernetes-bootcamp" deleted
+```
+
+8. $ curl 10.96.248.82:8080   (Can't access the exposed port anymore)
+```
+curl: (7) Failed to connect to 10.96.248.82 port 8080: Connection timed out
+```
+
+9. $ kubectl exec -ti $POD_NAME -- curl localhost:8080 (but we still can access it inside the container)
+```
+Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-fb5c67579-lpdms | v=1
+```
