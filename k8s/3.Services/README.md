@@ -24,3 +24,9 @@ Session Affinity:         None
 External Traffic Policy:  Cluster
 Events:                   <none>
 ```
+
+3. $ kubectl get pods -l app=kubernetes-bootcamp (to get pods by label)
+```
+NAME                                  READY   STATUS    RESTARTS   AGE
+kubernetes-bootcamp-fb5c67579-lpdms   1/1     Running   0          13m
+```
