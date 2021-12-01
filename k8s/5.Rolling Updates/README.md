@@ -84,3 +84,14 @@ $
 ```
 deployment.apps/kubernetes-bootcamp rolled back
 ```
+
+10. $ kubectl get pods
+```
+NAME                                   READY   STATUS    RESTARTS   AGE
+kubernetes-bootcamp-7d44784b7c-c9889   1/1     Running   0          28m
+kubernetes-bootcamp-7d44784b7c-mm6jm   1/1     Running   0          28m
+kubernetes-bootcamp-7d44784b7c-ncx6p   1/1     Running   0          28m
+kubernetes-bootcamp-7d44784b7c-nrxm8   1/1     Running   0          2m16s
+```
+
+Four Pods are running,the deployment is once again using a stable version of the app (v2). The rollback was successful.
