@@ -28,3 +28,15 @@ kubernetes-bootcamp-fb5c67579-8h8hx    1/1     Terminating   0          3m11s
 kubernetes-bootcamp-fb5c67579-hqqrh    1/1     Terminating   0          3m11s
 kubernetes-bootcamp-fb5c67579-w6rx4    1/1     Terminating   0          3m11s
 ```
+
+# Verify an update
+
+3. $ curl $(minikube ip):$NODE_PORT
+```
+Hello Kubernetes bootcamp! | Running on: kubernetes-bootcamp-7d44784b7c-mm6jm | v=2
+```
+
+4. $ kubectl rollout status deployments/kubernetes-bootcamp
+```
+deployment "kubernetes-bootcamp" successfully rolled out
+```
