@@ -6,7 +6,7 @@ Advanced Computer Graphics
 
 **Associate Professor** [HE Ying](https://personal.ntu.edu.sg/yhe/)
 
-<img align='middle' src="docs/1.png" width="60%" >  
+<img align='middle' src="docs/1.jpg" width="60%" >  
 
 ### Course Objectives
 
