@@ -1,1 +1,2 @@
-# Multimedia Information Management
+# DM6102
+Multimedia Information Management
