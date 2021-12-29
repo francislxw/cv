@@ -49,4 +49,4 @@ This course covers the following concepts:
 1 Fusionopolis Walk, #04- 11 Solaris North Tower, Singapore 138628 Fusionopolis Walk, Singapore 138628
 
 ## Certificate
- <img align='left' src="docs/Certificate.jpg" width="900" height="600">  
+ <img align='left' src="docs/Certificate.jpg" width="600" height="400">  
