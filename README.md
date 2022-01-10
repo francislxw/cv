@@ -254,7 +254,7 @@ Send build results to the slack channel | http POST request (header, body, data)
 
 ## Other Highlights
 ### Computer Graphics
-* Free Form Deformation[FFD](./computer-graphics) 
+* [Free Form Deformation](./computer-graphics) 
 
 ### Algorigths
 * [SkipList](./algorithms/1.skiplist) 
