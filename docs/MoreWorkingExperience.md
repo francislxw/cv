@@ -30,3 +30,10 @@
 **Final Result:**
 After presenting the output of every function in this FFD application, we perform some discussion on 'how to improve the applicant's performance’ and propose 'multithreading' technique to resolve the 'long time cost in calculating deformed coordinates' issue. Based on the experiment results, we conclude that the 'multithreading' technique can improve the performance of the FFD application very much, especially for large scale models.
 Result: The dissertation passed the final review of NTU graduate committee
+
+**Demo**
+* free-form-deformation by WebGL [FFD WebGL](./computer-graphics/free-form-deformation)
+* FFD - traditional GUI [FFD TGUI](./computer-graphics/ffd-play)
+* FFD - drage points summary [FFD Dragpoints](./computer-graphics/ffd-dragpoints)
+
+
