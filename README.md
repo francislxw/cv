@@ -252,7 +252,7 @@ Send build results to the slack channel | http POST request (header, body, data)
 
 [Singapore Office](./docs/MoreWorkExperience_sinoffice.md)
 
-[Shanghai Office](./docs/MoreWorkingExperience.md)
+[Shanghai Office](./docs/MoreWorkExperience_shaoffice.md)
 
 [NTU Projects](./docs/MoreWorkExperience_ntu.md)
 
