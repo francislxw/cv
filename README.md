@@ -257,7 +257,7 @@ Send build results to the slack channel | http POST request (header, body, data)
 * FFD-Four type dragpoints/[Control Points](./computer-graphics/ffd-dragpoints) 
 
 ### Algorigths
-* SkipList
+* [SkipList](./algorithms/1.skiplist) 
 
 ### AI
 * Speech Recoginization [demo](./ai-demo/1.speech_recognition)
