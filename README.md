@@ -12,7 +12,7 @@
 
 **WeChat:** francis2891
 
-**Date of Birth:** June 15, 1979
+**Date of Birth:** June, 1979
 
 **Nationality:** China
 
