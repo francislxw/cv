@@ -10,4 +10,4 @@
 
 3.full test result
 
-<img align='left' src="docs/3.result.png" width="550" height="650">  
+<img align='left' src="docs/3.result2.png" width="550" height="500">  
