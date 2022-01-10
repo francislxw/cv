@@ -265,3 +265,5 @@ Send build results to the slack channel | http POST request (header, body, data)
 
 ### AI
 * Speech Recoginization [demo](./ai-demo/1.speech_recognition)
+
+* Object Detection [yolo](./ai-demo/2.object_dedection)
