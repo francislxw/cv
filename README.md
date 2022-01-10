@@ -254,7 +254,7 @@ Send build results to the slack channel | http POST request (header, body, data)
 
 [Shanghai Office](./docs/MoreWorkingExperience.md)
 
-[NTU Projects](./docs/MoreWorkingExperience.md)
+[NTU Projects](./docs/MoreWorkExperience_ntu.md)
 
 ## Other Highlights
 ### Computer Graphics
