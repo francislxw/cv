@@ -254,7 +254,7 @@ Send build results to the slack channel | http POST request (header, body, data)
 
 ## Other Highlights
 ### Computer Graphics
-* FFD-Four type dragpoints/[Control Points](./computer-graphics/ffd-dragpoints) 
+* Free Form Deformation[FFD](./computer-graphics) 
 
 ### Algorigths
 * [SkipList](./algorithms/1.skiplist) 
