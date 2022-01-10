@@ -249,8 +249,11 @@ Send build results to the slack channel | http POST request (header, body, data)
 * Microsoft Azure | Azure Image Builder | python-adal | azure-functions | azure-identity | azure-mgmt-imagebuilder | azure-mgmt-resource
 
 ## More Working Experiences (>5 years)
+
 [Singapore Office](./docs/MoreWorkingExperience.md)
+
 [Shanghai Office](./docs/MoreWorkingExperience.md)
+
 [NTU Projects](./docs/MoreWorkingExperience.md)
 
 ## Other Highlights
