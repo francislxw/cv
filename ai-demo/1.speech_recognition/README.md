@@ -4,7 +4,7 @@ This project is to learn and practise recongnizing Chinese Audio and transfering
 * Audio recording from terminal in the client webpage (SampleRate:16000hz,bitRate:16kbps)
 * Transfer to Chinese words timely in the server, show results to the front web page.
 
-<img align='middle' src="docs/1.cosine_sim.png" width="90%" height="300">
+<img align='middle' src="docs/1.output.gif" width="90%" height="300">
 
 ## Techniques
 * Client: Docker(docker compose) + Nginx(Reverse Proxy) + Tomcat, java servelet + eclipse, js + html
@@ -53,6 +53,7 @@ This project is to learn and practise recongnizing Chinese Audio and transfering
     run_ai.bat
     ```
 5. python version:3.6~3.8 (V3.6 here)
+
 ## Experiment Result
 
 ```
