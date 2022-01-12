@@ -1,3 +1,3 @@
-# 4.Convolutional Neural Networks
+# Convolutional Neural Networks
 
-<img align='middle' src="docs/cert.jpg" width="700" height="380"> 
+<img align='middle' src="../docs/4.Certificate-Convolutional.Neural.Networks.png" width="700" height="500"> 
