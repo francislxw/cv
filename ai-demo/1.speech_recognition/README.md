@@ -4,7 +4,7 @@ This project is to learn and practise recongnizing Chinese Audio and transfering
 * Audio recording from terminal in the client webpage (SampleRate:16000hz,bitRate:16kbps)
 * Transfer to Chinese words timely in the server, show results to the front web page.
 
-<img align='middle' src="docs/2.output.gif" width="700" height="480">
+<img align='middle' src="docs/3.sr.output.gif" width="600" height="382">
 
 ## Techniques
 * Client: Docker(docker compose) + Nginx(Reverse Proxy) + Tomcat, java servelet + eclipse, js + html
@@ -14,8 +14,6 @@ This project is to learn and practise recongnizing Chinese Audio and transfering
 * Long-Short Term Memory neural network, [LSTM](https://www.cnblogs.com/wangduo/p/6773601.html)
 * attention mechanism [AM](https://www.cnblogs.com/robert-dlut/p/5952032.html)
 * Connectionist Temporal Classification, [CTC](https://www.cnblogs.com/shiyublog/p/10493348.html)
-
-<img align='middle' src="docs/2.neutralize.png" width="90%" height="300">
 
 
 ## How to Setup DEV Environment
