@@ -1,4 +1,4 @@
-# Course1-Neural Networks and Deep Learning
+# Neural Networks and Deep Learning
 
 In the first course of the Deep Learning Specialization, you will study the foundational concept of neural networks and deep learning. 
 
