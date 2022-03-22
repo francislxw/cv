@@ -20,6 +20,86 @@
 
 **Marital Status:** Married
 
+## Education
+<img align='left' src="docs/NTU.png" width="140" height="80">  
+
+**Nanyang Technological University | NTU**
+
+Singapore
+
+Master’s degree, Digital Media Technology, School of Computer Engineering
+
+August 2012 ~ July 2014
+
+<img align='left' src="docs/JSKJDX2.jpg" width="120" height="78"> 
+
+**Jiangsu University of Science and Technology | JUST**
+
+China
+
+* Master’s degree, Computer Integrated Manufacturing Systems (CIMS), School of Mechanical Engineering
+
+September 2002 ~ March 2005
+
+* Bachelor’s degree, Mechanical Manufacture and Automation, School of Mechanical Engineering
+
+September 1998 ~ July 2002
+
+## Skills Summary
+
+**1. Rich experience in software agile development and DevOps culture construction**
+
+o	Much experience in software agile development and delivery, Devops culture among different collaborative teams. 
+
+*	Agile development, CI/CD/CL/Jenkins/Artifactory
+
+*	Devops culture construction, involved development, installer, QA, delivery and localize, security teams, collaboration between them and rapid error correction by Scrum and OKR methodologies.
+
+o	Completed the 0-1 modernization transformation of multiple products
+
+*	Service based architecture, API based communication, container based infrastructure and Devops process
+
+*	Single modular applications of multiple products are built based on the same principle of cloud native
+
+*	New applications based on public and private cloud computing agility and automation are built, and the computing capacity provided on demand is utilized
+
+o	Accumulated lots of experience in culture, process, method (such as Devops), architecture and Technology (container/docker) involved in the development and interactive transformation to cloud native applications
+
+o	Familiar with CI/CD pipeline, rolling, blue/green deployment, automatic scalability and fault tolerance
+
+o	Understand the construction, deployment and management of cloud native applications, and learn about cloud computing, security, testing ,monitoring and alarms
+
+**2. Techniques**
+
+o	DevOps
+
+*	Familiar with Jenkins,GitHub,Artifactory,CI/CD pipeline,Perforce, Electrical Cloud,Gitlab
+
+*	Learn about IaC,Ansible,Terriform,Packer,VMware,Docker, dockerfile, Containerd, Harbor, DockerHub, AWS, Azure, Linux, Splunk
+
+*	Learn about SpringCloud/Eureka,Ribbon, zuul, hystrix, springcloud gateway, springcloud Config
+
+*	Learn about Cloud Native, Kubernetes, Prometheus, Grafana,ELK, EFK, ServiceMesh/Istio, K8s teckton, Rancher, pinpoint, Helm v3, Alertmanager, PV, PVC, storageClass, Ceph, Sonarqube, Harmony
+
+*	Learn about Python, Perl, Batch, Powershell, Groovy/UT,Golang
+
+o	Development
+
+*	Familiar with C++ & the principles of basic data structures and algorithms
+
+*	Learn about Java, Java Script, Servlet, Eclipse, Type Script, PHP, HTTPS, HTML, XML, CSS, JSON, ASP.net
+
+*	Learn about Nginx, Tomcat, Django
+
+*	Learn about MySQL/Mariadb, MongoDB, Redis
+
+* Learn about AI/ML basic theories, plus completed assignments
+
+o	Management
+
+*	Familiar with Scrum, Kanban, Agile, LUMA, OKR theories,SLA,JIRA
+
+
 ## Working Experience
 
 **Senior Software Engineer III (Engineering | DevOps)**
@@ -88,30 +168,6 @@ Familiar with Scrum, Agile, LUMA, OKR theories
 
 **Interview Bootcamp** | March 15th, 2021
 
-## Education
-<img align='left' src="docs/NTU.png" width="140" height="80">  
-
-**Nanyang Technological University | NTU**
-
-Singapore
-
-Master’s degree, Digital Media Technology, School of Computer Engineering
-
-August 2012 ~ July 2014
-
-<img align='left' src="docs/JSKJDX2.jpg" width="120" height="78"> 
-
-**Jiangsu University of Science and Technology | JUST**
-
-China
-
-* Master’s degree, Computer Integrated Manufacturing Systems (CIMS), School of Mechanical Engineering
-
-September 2002 ~ March 2005
-
-* Bachelor’s degree, Mechanical Manufacture and Automation, School of Mechanical Engineering
-
-September 1998 ~ July 2002
 
 ## E-Learning | ML&NNDL&AI
 
