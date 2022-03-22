@@ -162,7 +162,7 @@ XV. E-Practice | leetcode coding exercise
 
 Decouple exist CICD build process of ETO component, and migrate it to kubernetes cluster DevOps platform with github,Jenkins, k8s and artifactory server, this is a pilot project, purpose is to accumulate experiences for other larger products build process migration.
 
-•	Role: PI                                                          Time: June 2020-June 2021
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: June 2020-June 2021
 
 •	Main CICD process/pipeline stages
 
