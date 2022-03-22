@@ -1,84 +1,40 @@
 ## More Projects @ Singapore Office
 
-### II. Implement micro services based on CI-CD automatic deployment for company products build process
+### V. Pull Request CI/CD System from P4 to Git
 
-In implementing the automatic CI-CD build/release for the major desktop products in above *project I*, we wrote more than 10 micro services and implemented the automatic deployment by ci-cd.
-
-•	Role: PI                                                          
-
-•	Time: Mar 2015-June 2021
-
-•	Main Pipeline stages
-
-SCM checkout, Build docker container, Test new code, Harmony Scan, Upload updated docker container and Deploy new services
-
-###	CI-CD agile process:
-
-1. We implemented new functions on Dev self’s branch
-
-2. Ensure it passed UT on our local machines, then submitted it to our own branch, and performed the test builds.
-
-3. When the test build was clean, merged to the stage branch, Jenkins would automatically trigger a ci-cd build to run above pipeline stages once it noticed a new commit.
-
-4. We periodically merged the code from the Stage branch to Master branch, Jenkinsfile would run upload updated containers and deploy new services two stages if it’s from Master branch.
-
-###	Implement more than 10 microservices
-
-o	ci-services
-
-o	testcase.manage.service 
-
-o	tcdb.services
-
-o	access.service 
-
-o	etc.
-
-###	Main technologies
-
-o	git, Jenkins, artifact, ruby, rails, sqlite3, redis,aws-sdk, harmony etc.
-
-o	Infrastructure code (IAC), AWS, Docker,Dockerfile
-
-###	Security of microservices: 
-
-symmetric encryption and asymmetric encryption
-
-### III. Pull Request CI/CD System from P4 to Git
 In order to share/open source code, new director decides to switch the SCM tool from Perforce to GitHub, we research and design a new Pull Request CI system (PR CI/CD System) which works with Github server. It has the ability of tracing any PR opened by the customer, auto-trigger CI builds on Jenkins Server, get builds status and show them on the developed dashboard, this dashboard also shows commits information included in the Pull Request.
 
-•	Role: PI                                                         
-
-•	Time: June 2013-Mar 2015
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: June 2013-Mar 2015
 
 •	Responsibilities
 
-1. Research the existed Gate CheckIn CI system based on Github server from internet, learn about their Pros and Cons, and then identify one open-source tool as the base.
+1.) Research the existed Gate CheckIn CI system based on Github server from internet, learn about their Pros and Cons, and then identify one open-source tool as the base.
 
-2. Dig out the difference compared to what we expected in PR CI system.
+2.) Dig out the difference compared to what we expected in PR CI system.
 
-3. Propose solutions (PR hook of Github server), develop a POST event web service to parse JSON data of PR hook, get necessary commit data information.
+3.) Propose solutions (PR hook of Github server), develop a POST event web service to parse JSON data of PR hook, get necessary commit data information.
 
-4. Implement the function: Collector auto-triggers CI builds on Jenkins, and traces the CI build status.
+4.) Implement the function: Collector auto-triggers CI builds on Jenkins, and traces the CI build status.
 
-5. Develop a dashboard to show CI build status, Pull Request, committer, branch etc. information.
+5.) Develop a dashboard to show CI build status, Pull Request, committer, branch etc. information.
 
-6. Implement Email notification function with a very nice format, which includes last CI build status (Pass, Failed), commit ID, dashboard URL, and Jenkins Job log URL.
+6.) Implement Email notification function with a very nice format, which includes last CI build status (Pass, Failed), commit ID, dashboard URL, and Jenkins Job log URL.
 
-7. Output log with standard format by implementing a logging function.
+7.) Output log with standard format by implementing a logging function.
 
-8. Set up three Linux servers for configuring above Collector, Coordinate Servers, and develop Java functions with Maven on these three Linux servers.
+8.) Set up three Linux servers for configuring above Collector, Coordinate Servers, and develop Java functions with Maven on these three Linux servers.
 
 •	Achievement
 
 This system implements the new CI build process from P4 to Github, which will help to migrate the same process to other major products build in near future.
 
-### IV. BRE/ECS – CI/CD Builds for the Data Management Team
+
+
+### VI. BRE/ECS – CI/CD Builds for the Data Management Team
+
 We write the PERL+BATCH script by ourselves to decouple Visual Build tool (pay for licenses) used by Data Management Product build process, and deploy the new build process onto Autodesk local Cloud build machine (ECS Vapor), and implement a dashboard for SWD/QA teams usage.
 
-•	Role: PI
-
-•	Time: Nov 2011-June 2013
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: Nov 2011-June 2013
 
 •	Description
 
