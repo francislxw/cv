@@ -85,6 +85,8 @@ o	DevOps
 
 o	Development
 
+*	Learn about Computer Graphics, OpenGL，WebGL
+
 *	Familiar with C++ & the principles of basic data structures and algorithms
 
 *	Learn about Java, Java Script, Servlet, Eclipse, Type Script, PHP, HTTPS, HTML, XML, CSS, JSON, ASP.net
@@ -114,59 +116,6 @@ Autodesk, Inc. (ACRD) | Shanghai, China
 
 May 2005 ~ November 2011 (6 years 6 months) 
 
-## Skills Summary
-
-Learn about Computer Graphics, OpenGL
-
-Familiar with C++, python, Perl, Batch, Groovy + UT
-
-Familiar with the principles of basic data structures and algorithms
-
-Learn about Java, Java Script, Java Servlet, Eclipse, Type Script, PHP, HTTPS, HTML, XML, CSS, JSON, ASP.net
-
-Learn about Ngix, Tomcat, Django
-
-Familiar with Jenkins, Git, Artifactory, CI-CD Pipeline, Perforce, Electrical Cloud
-
-Learn about IaC, Docker, Ansible, AWS, Azure, Linux
-
-Learn about SQL, MongoDB, Redis ActiveRecord|slice, AWS Dynamoid.Document
-
-Learn about AI/ML basic theories, plus completed assignments
-
-Familiar with Scrum, Agile, LUMA, OKR theories
-
-## Training Experience
-
-**Power Communication Skills** | April 13th, 2012
-
-**Scrum Foundation and Agile Engineering Practice** | April 16th ~ 18th 2012
-
-**Employee Leadership Program Training** | September 4th ~ 7th 2012
-
-**Conflicts Management** | April 23rd, 2013
-
-**Power Presentation Skills** | July 10th ~11th 2014
-
-**Security Training** | January 4th, 2015
-
-**Business English 2B** | Dec 2016 ~ Jan 2017, British Council  
-
-**AWS Workshop: AMI creation using Packer** | July 1st, 2017
-
-**AWS Workshop: Terraform** | July 21st ,2017
-
-**AWS Technical Essentials** | April 23rd , 2018, Asia / Singapore
-
-**AWS Summit Singapore 2019** | Nov 4th, 2019
-
-**AWS Summit Online ASEAN 2020** | May 13th, 2020, Singapore
-
-**OKR workshop** | May 23rd ,2019
-
-**Agile Workshop** | Oct 11st, 2019
-
-**Interview Bootcamp** | March 15th, 2021
 
 
 ## E-Learning | ML&NNDL&AI
@@ -323,3 +272,36 @@ Send build results to the slack channel | http POST request (header, body, data)
 * Speech Recoginization [demo](./ai-demo/1.speech_recognition)
 
 * Object Detection [yolo](./ai-demo/2.object_detection)
+
+
+## Training Experience
+
+**Power Communication Skills** | April 13th, 2012
+
+**Scrum Foundation and Agile Engineering Practice** | April 16th ~ 18th 2012
+
+**Employee Leadership Program Training** | September 4th ~ 7th 2012
+
+**Conflicts Management** | April 23rd, 2013
+
+**Power Presentation Skills** | July 10th ~11th 2014
+
+**Security Training** | January 4th, 2015
+
+**Business English 2B** | Dec 2016 ~ Jan 2017, British Council  
+
+**AWS Workshop: AMI creation using Packer** | July 1st, 2017
+
+**AWS Workshop: Terraform** | July 21st ,2017
+
+**AWS Technical Essentials** | April 23rd , 2018, Asia / Singapore
+
+**AWS Summit Singapore 2019** | Nov 4th, 2019
+
+**AWS Summit Online ASEAN 2020** | May 13th, 2020, Singapore
+
+**OKR workshop** | May 23rd ,2019
+
+**Agile Workshop** | Oct 11st, 2019
+
+**Interview Bootcamp** | March 15th, 2021
