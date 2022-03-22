@@ -156,6 +156,34 @@ XV. E-Practice | leetcode coding exercise
 
 ## Project Experience - Details
 
+**<=5 years**
+
+**I. Migrate ETO Component CI/CD build process from VM to K8s Platform**
+
+Decouple exist CICD build process of ETO component, and migrate it to kubernetes cluster DevOps platform with github,Jenkins, k8s and artifactory server, this is a pilot project, purpose is to accumulate experiences for other larger products build process migration.
+
+•	Role: PI                                                          Time: June 2020-June 2021
+
+•	Main CICD process/pipeline stages
+
+DEV members push commits to github, Jenkins feels this with webbook, call k8s api to create Jenkins worker pods, which will run pipeline stages:
+
+initial task, sync-source code, get 3rd party files, compile solutions, harmony scan, create zip packages, distribute to all global sites, post-build tasks.
+
+•	Major functions:
+
+1.)	Set up Kubernetes cluster platform with binary method (2 masters + 4 nodes).
+
+2.)	Apply Keepalived and Nginx tools to implement HA for masters nodes.
+
+3.)	Set up Kibana dashboard with EFK tools to watch logs.
+
+4.)	Utilize Prometheus, Grafana and Alertmaner to set up monitor system.
+
+5.)	Switch the build process from fixed VM to k8s clusters, once build is done, pod will be removed, which will save cloud resources.
+
+6.)	Notify committer with job results by email and slack channel.
+
 
 ## Detailed Working Experiences (<= 5 years)
 
