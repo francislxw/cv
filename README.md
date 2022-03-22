@@ -185,6 +185,150 @@ initial task, sync-source code, get 3rd party files, compile solutions, harmony 
 6.)	Notify committer with job results by email and slack channel.
 
 
+**II. Migrate micro-services from Separated Dockers to Kubernetes cluster with HA of master nodes and monitor system**
+
+Migrate micro-services implemented in project IV from separated Dockers to k8s, implement DevOps platform with Jenkins, k8s and artifactory server, and make it much easier to maintain these services.
+
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: May 2019-June 2020
+
+•	Main CICD process/pipeline stages
+
+EngOps member push commits to github, Jenkins feels this with webbook, call k8s api to create Jenkins worker pod, which will run pipeline stages:
+
+sync source code, compile solutions, harmony scan, create docker image, push to artifactory, deploy it to stage branch, deploy it to production branch.
+
+•	Major functions:
+
+1.)	Set up Kubernetes cluster platform with Kubeadm method (2 masters + 3 nodes).
+
+2.)	Implement HA for masters nodes by Keepalived and Nginx tools.
+
+3.)	Set up monitor system by Prometheus, Grafana and Alertmaner tools.
+
+4.)	Set up Kibana dashboard with EFK tools to monitor logs.
+
+5.)	Notify committer with job results by email and slack channel.
+
+
+**III. Automation CI-CD Build Process for Autodesk major Desktop Products**
+
+Migrate the CI-CD experience from Vault product to all other major products, use Jenkins pipeline to implement automation build process, and crate a unified dashboard for all departments usage.
+
+•	Role: PI                                                          Time: June 2016-May 2019
+
+•	Main Pipeline stages
+
+Initialize build, sync-source, update 3P, compile solutions, Digital Sign binaries, Create masters, Digital sign installers, UPI Register, Harmony Scan, Post Symbols, Post masters, post-build tasks.
+
+•	Major functions:
+
+1.) Automatically error checking from build logs.
+
+2.) Notify respective committers timely & correctly, especially for the error ones.
+
+3.) Implement a dashboard to monitor build status of above listed products.
+
+4.) Branch build scheduler for SWD team, to validate their code changes from their own branches
+
+5.) Builds will trigger automatically in Jenkinks by services timely.
+
+6.) Everyone (DEV/QA teams) can monitor builds (Optmize/Debug/Core) status from the unified dashboard.
+
+7.) Each test image with be created with clean master/binaries dynamically to run test cases by service automatically.
+
+8.) Validation result of new builds will be shown on the dashboard, including new failed test cases number/rate.
+
+9.) Post masters/binaries to different sites globally for QA validate & DEV debug usage. 
+
+10.) QA team cross-validate new failures, reports to DEV team to fix bug.
+
+11.) DEV team provide fix, validate the new code change with CI build, then put it into respective DEV branch, follow CCB merge etc. process to Release branch.
+
+12.) Also send build results to the slack channel for team member’s review.
+
+•	Techniques
+
+o	SCM: Git, Jenkins, Artifactory, groovy, HashiCorp Vault, Ansible
+
+o	Infrastructure as Code (IaC), AWS
+
+o	Docker + Ansible to control all ECS machines + set up build environment (software version control)
+
+o	React +Node.js front-end programming
+
+o	Ruby-smal + OKTA (SAML2) to implement the administrator user identity confirmation
+
+o	Implement AWS interfaces by python aws sdk boto3.
+
+o	Implement Azure interfaces with azure vm image builder service.
+
+•	Setup CI-CD pipeline for most major products like: 
+
+Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
+
+**IV. Implement micro services based on CI-CD automatic deployment for company products build process**
+
+In implementing the automatic CI-CD build/release for the major desktop products in above project III, we wrote more than 10 micro services and implemented the automatic deployment by ci-cd.
+
+•	Role: PI                                                          Time: Mar 2015-June 2018
+
+•	Main Pipeline stages
+
+SCM checkout, Build docker container, Test new code, Harmony Scan, Upload updated docker container and Deploy new services
+
+•	CI-CD agile process:
+
+1.) We implemented new functions on Dev self’s branch
+
+2.) Ensure it passed UT on our local machines, then submitted it to our own branch, and performed the test builds.
+
+3.) When the test build was clean, merged to the stage branch, Jenkins would automatically trigger a ci-cd build to run above pipeline stages once it noticed a new commit.
+
+4.) We periodically merged the code from the Stage branch to Master branch, Jenkinsfile would run upload updated containers and deploy new services two stages if it’s from Master branch.
+
+•	Implement more than 10 microservices
+
+o	ci-services
+
+o	testcase.manage.service 
+
+o	tcdb.services
+
+o	access.service 
+
+o	etc.
+
+•	Main technologies
+
+o	git, Jenkins, artifact, ruby, rails, sqlite3, redis,aws-sdk, harmony etc.
+
+o	Infrastructure code (IAC), AWS, Docker,Dockerfile
+
+•	Security of microservices: 
+
+symmetric encryption and asymmetric encryption
+
+V. Pull Request CI/CD System from P4 to Git
+In order to share/open source code, new director decides to switch the SCM tool from Perforce to GitHub, we research and design a new Pull Request CI system (PR CI/CD System) which works with Github server. It has the ability of tracing any PR opened by the customer, auto-trigger CI builds on Jenkins Server, get builds status and show them on the developed dashboard, this dashboard also shows commits information included in the Pull Request.
+•	Role: PI                                                          Time: June 2013-Mar 2015
+•	Responsibilities
+1.) Research the existed Gate CheckIn CI system based on Github server from internet, learn about their Pros and Cons, and then identify one open-source tool as the base.
+2.) Dig out the difference compared to what we expected in PR CI system.
+3.) Propose solutions (PR hook of Github server), develop a POST event web service to parse JSON data of PR hook, get necessary commit data information.
+4.) Implement the function: Collector auto-triggers CI builds on Jenkins, and traces the CI build status.
+5.) Develop a dashboard to show CI build status, Pull Request, committer, branch etc. information.
+6.) Implement Email notification function with a very nice format, which includes last CI build status (Pass, Failed), commit ID, dashboard URL, and Jenkins Job log URL.
+7.) Output log with standard format by implementing a logging function.
+8.) Set up three Linux servers for configuring above Collector, Coordinate Servers, and develop Java functions with Maven on these three Linux servers.
+•	Achievement
+This system implements the new CI build process from P4 to Github, which will help to migrate the same process to other major products build in near future.
+
+
+
+
+
+
+
 ## Detailed Working Experiences (<= 5 years)
 
 **Two generations of Automation Build Process for Autodesk major desktop products**
