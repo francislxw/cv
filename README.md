@@ -184,6 +184,7 @@ initial task, sync-source code, get 3rd party files, compile solutions, harmony 
 
 6.)	Notify committer with job results by email and slack channel.
 
+•	[Demo](./docs/demo/1.Proj1.md)
 
 ### II. Migrate micro-services from Separated Dockers to Kubernetes cluster with HA of master nodes and monitor system
 
