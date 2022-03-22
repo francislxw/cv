@@ -97,7 +97,7 @@ o	Development
 
 * Learn about AI/ML basic theories, plus completed assignments
 
-o	Management
+**3.	Management**
 
 *	Familiar with Scrum, Kanban, Agile, LUMA, OKR theories,SLA,JIRA
 
@@ -214,7 +214,7 @@ sync source code, compile solutions, harmony scan, create docker image, push to 
 
 Migrate the CI-CD experience from Vault product to all other major products, use Jenkins pipeline to implement automation build process, and crate a unified dashboard for all departments usage.
 
-•	Role: PI                                                          Time: June 2016-May 2019
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: June 2016-May 2019
 
 •	Main Pipeline stages
 
@@ -270,7 +270,7 @@ Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
 
 In implementing the automatic CI-CD build/release for the major desktop products in above project III, we wrote more than 10 micro services and implemented the automatic deployment by ci-cd.
 
-•	Role: PI                                                          Time: Mar 2015-June 2018
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: Mar 2015-June 2018
 
 •	Main Pipeline stages
 
@@ -308,20 +308,7 @@ o	Infrastructure code (IAC), AWS, Docker,Dockerfile
 
 symmetric encryption and asymmetric encryption
 
-V. Pull Request CI/CD System from P4 to Git
-In order to share/open source code, new director decides to switch the SCM tool from Perforce to GitHub, we research and design a new Pull Request CI system (PR CI/CD System) which works with Github server. It has the ability of tracing any PR opened by the customer, auto-trigger CI builds on Jenkins Server, get builds status and show them on the developed dashboard, this dashboard also shows commits information included in the Pull Request.
-•	Role: PI                                                          Time: June 2013-Mar 2015
-•	Responsibilities
-1.) Research the existed Gate CheckIn CI system based on Github server from internet, learn about their Pros and Cons, and then identify one open-source tool as the base.
-2.) Dig out the difference compared to what we expected in PR CI system.
-3.) Propose solutions (PR hook of Github server), develop a POST event web service to parse JSON data of PR hook, get necessary commit data information.
-4.) Implement the function: Collector auto-triggers CI builds on Jenkins, and traces the CI build status.
-5.) Develop a dashboard to show CI build status, Pull Request, committer, branch etc. information.
-6.) Implement Email notification function with a very nice format, which includes last CI build status (Pass, Failed), commit ID, dashboard URL, and Jenkins Job log URL.
-7.) Output log with standard format by implementing a logging function.
-8.) Set up three Linux servers for configuring above Collector, Coordinate Servers, and develop Java functions with Maven on these three Linux servers.
-•	Achievement
-This system implements the new CI build process from P4 to Github, which will help to migrate the same process to other major products build in near future.
+
 
 
 
