@@ -118,7 +118,7 @@ May 2005 ~ November 2011 (6 years 6 months)
 
 ## Project Experience - Catalogue
 
-o	**Singapore Office**
+>	**Singapore Office**
 
 I. Migrate ETO Component CI/CD build process from VM to K8s Platform
 
@@ -132,7 +132,7 @@ V. Pull Request CI/CD System from P4 to Git
 
 VI. BRE/ECS – CI/CD Builds for the Data Management Team
 
-o	**Shanghai Office**
+>	**Shanghai Office**
 
 VII. Form DevOps team and Set up Automation building process for Inventor, Vault, ETO
 
@@ -142,7 +142,7 @@ IX. Reduce Inventor Build Cost
 
 X. C4a, AEC Block Management
 
-o	**Others**
+>	**Others**
 
 XI. Setup DevOps Platform for Graphic Editing System and Chinese Speech Recognition System with Kubernetes Cluster
 
@@ -156,7 +156,7 @@ XV. E-Practice | leetcode coding exercise
 
 ## Project Experience - Details
 
-**<=5 years**
+> <=5 years
 
 **I. Migrate ETO Component CI/CD build process from VM to K8s Platform**
 
