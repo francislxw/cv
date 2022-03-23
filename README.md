@@ -357,7 +357,7 @@ symmetric encryption and asymmetric encryption
 
 * Ansible
 
-* Microsoft Azure
+* [Microsoft Azure](./azure)
 
 * [AWS](./aws)
 
