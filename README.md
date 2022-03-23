@@ -210,6 +210,8 @@ sync source code, compile solutions, harmony scan, create docker image, push to 
 
 5.)	Notify committer with job results by email and slack channel.
 
+•	[Demo](./docs/demo/2.Proj2.md)
+
 
 ### III. Automation CI-CD Build Process for Autodesk major Desktop Products
 
