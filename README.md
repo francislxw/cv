@@ -322,7 +322,7 @@ symmetric encryption and asymmetric encryption
 
 [MachingLearning & Artificial Intelegence](./docs/MoreWorkELearningAI.md)
 
-[LeetCode Practice](./docs/MoreWorkLetCode.md)
+[Leetcode Practice](./docs/MoreWorkLetCode.md)
 
 
 ## Other Highlights
