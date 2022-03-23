@@ -353,6 +353,8 @@ symmetric encryption and asymmetric encryption
 
 * [AMI Creation with Packer](/.docs/IacAMIPacker.md)
 
+* [Terraform](./docs/IacTerraform.md)
+
 ## Training Experience
 
 **Power Communication Skills** | April 13th, 2012
