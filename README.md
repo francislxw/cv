@@ -329,7 +329,7 @@ symmetric encryption and asymmetric encryption
 
 ### Kubernetes
 
-* [Docker + kubernetes (k8s) + Devops Enterprise Architect] (./docs/DockerK8sDevopsEnterpriseArchitect.md)
+* [Docker+kubernetes (k8s)+Devops Enterprise Architect](./docs/DockerK8sDevopsEnterpriseArchitect.md)
 
 ### Computer Graphics
 * [Free Form Deformation](./computer-graphics) 
