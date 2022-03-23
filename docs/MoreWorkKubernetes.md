@@ -53,3 +53,12 @@ Analyse all components used in the existed e-Shopping platform, identify the res
 
 11.) Auto-scaling pods implementation in k8s.
 
+•	Demo
+
+Online Shop Platform
+
+<img src="XII.OnlineShop.jpg" width="600" height="300"> 
+
+Euraka
+
+<img src="XII.euraka.jpg" width="600" height="300"> 
