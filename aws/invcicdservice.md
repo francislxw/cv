@@ -1,6 +1,6 @@
 # AWS features are used in implementing services to support Inventor Build Automation
 
-### services
+### Services
 
 ci-services
 
