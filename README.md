@@ -351,7 +351,7 @@ symmetric encryption and asymmetric encryption
 
 ### IaC
 
-* [AMI Creation with Packer](/.docs/IacAMIPacker.md)
+* [AMI Creation with Packer](./docs/IacAMIPacker.md)
 
 * [Terraform](./docs/IacTerraform.md)
 
@@ -359,7 +359,7 @@ symmetric encryption and asymmetric encryption
 
 * Microsoft Azure
 
-* AWS
+* [AWS](./aws)
 
 ### Linux
 
