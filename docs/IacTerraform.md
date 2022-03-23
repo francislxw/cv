@@ -6,6 +6,10 @@ Both in-house and service providers can be managed, a plan to execute the descri
 
 Incremental execution plans are applied by determining the change, manage components such as instances, storage, networking, DNS entries, Saas features, etc
 
+### Hashicorp Terraform
+
+HCL (HashiCorp Configuration Language)| AWS Lambda | EC2 instance | python-lambda awscli
+
 ### POC project workflow chart
 
 <img align='left' src="pics/iacterraform.jpg" width="600" height="352"> 
