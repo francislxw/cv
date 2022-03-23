@@ -344,10 +344,14 @@ symmetric encryption and asymmetric encryption
 * [SkipList](./algorithms/1.skiplist) 
 
 ### AI
+
 * Speech Recoginization [demo](./ai-demo/1.speech_recognition)
 
 * Object Detection [yolo](./ai-demo/2.object_detection)
 
+### IaC
+
+* [AMI Creation with Packer](/.docs/IacAMIPacker.md)
 
 ## Training Experience
 
