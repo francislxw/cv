@@ -57,8 +57,12 @@ Analyse all components used in the existed e-Shopping platform, identify the res
 
 Online Shop Platform
 
-<img src="XII.OnlineShop.jpg" width="600" height="300"> 
+<img src="XII.OnlineShop1.jpg" width="600" height="330"> 
 
-Euraka
+Stocks
 
-<img src="XII.euraka.jpg" width="600" height="300"> 
+<img src="XII.OnlineShop2.jpg" width="600" height="248"> 
+
+Eureka
+
+<img src="XII.eureka.jpg" width="600" height="364"> 
