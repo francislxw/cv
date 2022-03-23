@@ -1,4 +1,4 @@
-### XI. Setup DevOps Platform for Graphic Editing System and Chinese Speech Recognition System with Kubernetes Cluster
+### XI. Setup DevOps Platform for *Graphic Editing System* and *Chinese Speech Recognition System* with Kubernetes Cluster
 
 Both systems are implemented with service on the Dockers originally, in my spare time, I migrate them to the k8s platform with gitlab, Jenkins and harbor server, the purpose is to practise using k8s, gitlab and harbor to form DevOps platform that many companies are using in China mainland.
 
