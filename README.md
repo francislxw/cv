@@ -269,6 +269,8 @@ o	Implement Azure interfaces with azure vm image builder service.
 
 Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
 
+•	[Demo](./docs/demo/3.Proj3.md)
+
 ### IV. Implement micro services based on CI-CD automatic deployment for company products build process
 
 In implementing the automatic CI-CD build/release for the major desktop products in above project III, we wrote more than 10 micro services and implemented the automatic deployment by ci-cd.
