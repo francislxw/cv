@@ -320,16 +320,9 @@ symmetric encryption and asymmetric encryption
 
 [Kubeletes Projects](./docs/MoreWorkKubernetes.md)
 
-[E-Learning | ML&NNDL&AI](./docs/MoreWorkELearningAI.md)
+[MachingLearning & Artificial Intelegence](./docs/MoreWorkELearningAI.md)
 
-
-
-
-## E-Practice
-
-**leetcode exercise** @ https://leetcode-cn.com/u/lionsg/ | from Dec,2020 
-
-<img align='middle' src="docs/LetCode.jpg" width="700" height="380"> 
+[LeetCode Practice](./docs/MoreWorkLetCode.md)
 
 
 ## Other Highlights
