@@ -310,13 +310,15 @@ o	Infrastructure code (IAC), AWS, Docker,Dockerfile
 symmetric encryption and asymmetric encryption
 
 
-## More Working Experiences (>5 years)
+## More Working Experiences
 
 [Singapore Office](./docs/MoreWorkExperience_sinoffice.md)
 
 [Shanghai Office](./docs/MoreWorkExperience_shaoffice.md)
 
 [NTU Projects](./docs/MoreWorkExperience_ntu.md)
+
+[Kubeletes Projects](./docs/MoreWorkKubernetes.md)
 
 
 ## E-Learning | ML&NNDL&AI
