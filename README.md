@@ -144,7 +144,7 @@ X. C4a, AEC Block Management
 
 >	**Others**
 
-XI. Setup DevOps Platform for Graphic Editing System and Chinese Speech Recognition System with Kubernetes Cluster
+XI. Setup DevOps Platform for *Graphic Editing System* and *Chinese Speech Recognition System* with Kubernetes Cluster
 
 XII. Migrate SpringCloud based e-Shopping Platform to K8s
 
