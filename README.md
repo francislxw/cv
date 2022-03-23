@@ -355,6 +355,26 @@ symmetric encryption and asymmetric encryption
 
 * [Terraform](./docs/IacTerraform.md)
 
+* Ansible
+
+* Microsoft Azure
+
+* AWS
+
+### Linux
+
+##### Server setup
+
+* DHCP setup
+
+* DNS service setup
+
+* FTP server
+
+* SAMBA server 
+
+* NFS server
+
 ## Training Experience
 
 **Power Communication Skills** | April 13th, 2012
