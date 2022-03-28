@@ -2,7 +2,7 @@
 
 Ansible playbook for setting up and configuring build machine for factory-design-utilities
 
- <img src="docs/1.running-playbook.jpg" width="600" height="359"> 
+ <img src="docs/1.running-playbook.jpg" width="564" height="338"> 
  
 
 ## 1. Pre-requisites
