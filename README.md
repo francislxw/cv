@@ -31,7 +31,7 @@ Master’s degree, Digital Media Technology, School of Computer Engineering
 
 August 2012 ~ July 2014
 
-<img align='left' src="docs/JSKJDX2.jpg" width="120" height="78"> 
+<img align='left' src="docs/JSKJDX2.jpg" width="110" height="72"> 
 
 **Jiangsu University of Science and Technology | JUST**
 
