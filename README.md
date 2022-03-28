@@ -343,7 +343,7 @@ symmetric encryption and asymmetric encryption
 
 * [Terraform](./docs/IacTerraform.md)
 
-* [Ansible](./docs/ansible)
+* [Ansible](./ansible)
 
 * [Microsoft Azure](./azure)
 
