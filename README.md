@@ -337,6 +337,18 @@ symmetric encryption and asymmetric encryption
 
 * [Docker+kubernetes (k8s)+Devops Enterprise Architect](./docs/DockerK8sDevopsEnterpriseArchitect.md)
 
+### IaC
+
+* [AMI Creation with Packer](./docs/IacAMIPacker.md)
+
+* [Terraform](./docs/IacTerraform.md)
+
+* [Ansible](./docs/ansible)
+
+* [Microsoft Azure](./azure)
+
+* [AWS](./aws)
+
 ### Computer Graphics
 * [Free Form Deformation](./computer-graphics) 
 
@@ -349,17 +361,6 @@ symmetric encryption and asymmetric encryption
 
 * Object Detection [yolo](./ai-demo/2.object_detection)
 
-### IaC
-
-* [AMI Creation with Packer](./docs/IacAMIPacker.md)
-
-* [Terraform](./docs/IacTerraform.md)
-
-* [Ansible](./docs/ansible)
-
-* [Microsoft Azure](./azure)
-
-* [AWS](./aws)
 
 ### Linux
 
