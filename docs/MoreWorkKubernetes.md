@@ -25,6 +25,28 @@ Initial task, sync-source code, compile solutions, sonarqube scan, create docker
 
 7.) Rancher to manage k8s clusters
 
+•	Demo
+
+Grafana monitor dashboard
+
+<img src="XI.1.grafana.jpg" width="600" height="353">
+
+Alert email to DevOps team
+
+<img src="XI.2.alertemail.jpg" width="600" height="458">
+
+Rancher to manage k8s clusters
+
+<img src="XI.3.rancher1.jpg" width="600" height="223">
+
+Dashboard within Rancher
+
+<img src="XI.4.rancher2.jpg" width="600" height="655">
+
+Cluster dashboard from Rancher
+
+<img src="XI.5.rancher3.jpg" width="600" height="350">
+
 ### XII. Migrate SpringCloud based e-Shopping Platform to K8s
 
 Analyse all components used in the existed e-Shopping platform, identify the respective components in the Kubernetes, design the whole deployment process in k8s, migrate the SpringCloud based components into k8s with service orchestration.
