@@ -376,6 +376,10 @@ symmetric encryption and asymmetric encryption
 
 * NFS server
 
+* NTP-Chrony Time Server
+
+* RSync Server
+
 ## Training Experience
 
 **Power Communication Skills** | April 13th, 2012
