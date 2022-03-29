@@ -1,6 +1,6 @@
 ## Projects for master’s degree of Computer Science @ NTU
  
- **I.Project Name:** Interactive Shape Editing
+### I.Project Name: Interactive Shape Editing
  
  **Project Duration:** Aug 2013 ~ July 2014
  
@@ -35,7 +35,7 @@ Result: The dissertation passed the final review of NTU graduate committee
 * FFD - drage points summary [FFD Dragpoints](../computer-graphics/ffd-dragpoints)
 
 
-**II.Project Name:** Direct Reading - Interactive Shape Editing
+### II.Project Name:Direct Reading - Interactive Shape Editing
 
 **Project Duration:** Jan, 2013 ~ July, 2013
 
@@ -67,7 +67,7 @@ This report surveys the state-of-the-art techniques for creating, manipulating, 
 4. Learn about a lot of techniques/solutions that are proposed to deal with the challenges listed in the above topics, such as: free-form deformation, re-meshing, multi-resolution, non-linear differential coordinate, detail editing and transfer, non-linear Poisson algorithm, manipulate vertex positions explicitly, non-linear handle-aware isoline technique, Boolean operations, Laplacian smoothing, multi-band decompositions, Laplacian coordinates, Extended Free-Form Deformation.
 5. For each paper, described in sections II-VI, we mainly focus on learning its objectives, the technology it involved and presenting some results. And in the section VII, we perform some simple comparison on methods and algorithms involved in each paper, and then give some conclusion in the last section VIII.
 
-**III.Project Name:** 2D and 3D Animation
+### III.Project Name: 2D and 3D Animation
 
 **Project Duration:** Nov 2011 ~ June 2012
 
@@ -98,7 +98,7 @@ Techniques Used:
 Interpolation (curve), Matrix, SVD, Optimization, motion capture, IK, Interpolation (rotation), Dynamics, Behavioral Animation, 3D display, 2D/3D animation appreciation
 Autodesk Maya 2013, Adobe After Effects CS6.0 (AE CS6)
 
-**IV.Project Name:** Game Design - Falling Animals
+### IV.Project Name: Game Design - Falling Animals
 
 **Project Duration:** Aug, 2013 ~ Dec, 2013
 
