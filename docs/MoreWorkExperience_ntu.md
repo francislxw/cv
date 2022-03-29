@@ -73,6 +73,10 @@ This report surveys the state-of-the-art techniques for creating, manipulating, 
 
 **Final Report**
 
+<img src="../NTU-StudyProjects/DirectReading/docs/5.jpg" width="500" height="636"> <img src="../NTU-StudyProjects/DirectReading/docs/6.jpg" width="500" height="636"> 
+
+**More**
+
 [DirectReadingReport](../NTU-StudyProjects/DirectReading)
 
 
