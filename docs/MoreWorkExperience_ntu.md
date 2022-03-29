@@ -111,6 +111,10 @@ Techniques Used:
 Interpolation (curve), Matrix, SVD, Optimization, motion capture, IK, Interpolation (rotation), Dynamics, Behavioral Animation, 3D display, 2D/3D animation appreciation
 Autodesk Maya 2013, Adobe After Effects CS6.0 (AE CS6)
 
+**Demo**
+
+ <img align='middle' src="ntu.dm6104.animation.gif" width="480" height="270">  
+
 ### IV.Project Name: Game Design - Falling Animals
 
 **Project Duration:** Aug, 2013 ~ Dec, 2013
