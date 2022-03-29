@@ -30,6 +30,10 @@ After presenting the output of every function in this FFD application, we perfor
 Result: The dissertation passed the final review of NTU graduate committee
 
 **Demo**
+
+
+
+**More**
 * free-form-deformation by WebGL [FFD WebGL](../computer-graphics/free-form-deformation)
 * FFD - traditional GUI [FFD TGUI](../computer-graphics/ffd-play)
 * FFD - drage points summary [FFD Dragpoints](../computer-graphics/ffd-dragpoints)
@@ -66,6 +70,11 @@ This report surveys the state-of-the-art techniques for creating, manipulating, 
 *	How to prevent local self-intersection in the reconstructed surface.
 4. Learn about a lot of techniques/solutions that are proposed to deal with the challenges listed in the above topics, such as: free-form deformation, re-meshing, multi-resolution, non-linear differential coordinate, detail editing and transfer, non-linear Poisson algorithm, manipulate vertex positions explicitly, non-linear handle-aware isoline technique, Boolean operations, Laplacian smoothing, multi-band decompositions, Laplacian coordinates, Extended Free-Form Deformation.
 5. For each paper, described in sections II-VI, we mainly focus on learning its objectives, the technology it involved and presenting some results. And in the section VII, we perform some simple comparison on methods and algorithms involved in each paper, and then give some conclusion in the last section VIII.
+
+**Final Report**
+
+[DirectReadingReport](../NTU-StudyProjects/DirectReading)
+
 
 ### III.Project Name: 2D and 3D Animation
 
