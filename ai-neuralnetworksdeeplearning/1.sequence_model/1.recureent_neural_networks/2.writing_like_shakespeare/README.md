@@ -32,8 +32,8 @@ Using LSTM cells, you can learn longer term dependencies that span many characte
     ```
 5. python version:3.6~3.8 (V3.6 here)
 ## Experiment Result
-<img align='middle' src="docs/6.result.jpg" height="400" width="70%" >
+<img align='middle' src="./docs/6.result.jpg" height="400" width="70%" >
 
-<img align='middle' src="docs/2._result2.gif" height="300" width="90%" >
+<img align='middle' src="./docs/2._result2.gif" height="300" width="90%" >
 
    
