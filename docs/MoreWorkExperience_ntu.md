@@ -177,3 +177,6 @@ The pioneer space shuttle that was transporting animals to Mars has failed to re
 *	Game Physics and Animation
 *	Game Scene and Terrain Management
 
+**Demo**
+
+ <img align='middle' src="ntu.dm6127.gamedemo.jpg" width="600" height="483" > 
