@@ -21,7 +21,9 @@ Initial task, sync-source code, compile solutions, sonarqube scan, create docker
 
 5.)	Utilize Prometheus, Grafana and Alertmaner to set up monitor system.
 
-6.)	Notify committer with job results by email and DingDing channel.
+6.)	Notify alerts to DEV team by email or DingDing channel.
+
+7.) Rancher to manage k8s clusters
 
 ### XII. Migrate SpringCloud based e-Shopping Platform to K8s
 
