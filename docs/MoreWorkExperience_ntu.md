@@ -30,9 +30,9 @@ After presenting the output of every function in this FFD application, we perfor
 Result: The dissertation passed the final review of NTU graduate committee
 
 **Demo**
-* free-form-deformation by WebGL [FFD WebGL](./computer-graphics/free-form-deformation)
-* FFD - traditional GUI [FFD TGUI](./computer-graphics/ffd-play)
-* FFD - drage points summary [FFD Dragpoints](./computer-graphics/ffd-dragpoints)
+* free-form-deformation by WebGL [FFD WebGL](../computer-graphics/free-form-deformation)
+* FFD - traditional GUI [FFD TGUI](../computer-graphics/ffd-play)
+* FFD - drage points summary [FFD Dragpoints](../computer-graphics/ffd-dragpoints)
 
 
 **II.Project Name:** Direct Reading - Interactive Shape Editing
