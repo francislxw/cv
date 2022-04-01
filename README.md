@@ -120,13 +120,13 @@ May 2005 ~ November 2011 (6 years 6 months)
 
 >	**Singapore Office**
 
-I. Migrate ETO Component CI/CD build process from VM to K8s Platform
+[I. Migrate ETO Component CI/CD build process from VM to K8s Platform](#I)
 
-II. Migrate micro-services from Separated Dockers to Kubernetes cluster with HA of master nodes and monitor system
+[II. Migrate micro-services from Separated Dockers to Kubernetes cluster with HA of master nodes and monitor system](#II)
 
-III. Automation CI-CD Build Process for Autodesk major Desktop Products
+[III. Automation CI-CD Build Process for Autodesk major Desktop Products](#III)
 
-IV. Implement micro services based on CI-CD automatic deployment for company products build process
+[IV. Implement micro services based on CI-CD automatic deployment for company products build process](#IV)
 
 V. Pull Request CI/CD System from P4 to Git
 
@@ -158,6 +158,7 @@ XV. E-Practice | leetcode coding exercise
 
 > <=5 years
 
+<a name="I"></a>
 ### I. Migrate ETO Component CI/CD build process from VM to K8s Platform
 
 Decouple exist CICD build process of ETO component, and migrate it to kubernetes cluster DevOps platform with github,Jenkins, k8s and artifactory server, this is a pilot project, purpose is to accumulate experiences for other larger products build process migration.
@@ -186,6 +187,7 @@ initial task, sync-source code, get 3rd party files, compile solutions, harmony 
 
 •	[Demo](./docs/demo/1.Proj1.md)
 
+<a name="II"></a>
 ### II. Migrate micro-services from Separated Dockers to Kubernetes cluster with HA of master nodes and monitor system
 
 Migrate micro-services implemented in project IV from separated Dockers to k8s, implement DevOps platform with Jenkins, k8s and artifactory server, and make it much easier to maintain these services.
@@ -212,7 +214,7 @@ sync source code, compile solutions, harmony scan, create docker image, push to 
 
 •	[Demo](./docs/demo/2.Proj2.md)
 
-
+<a name="III"></a>
 ### III. Automation CI-CD Build Process for Autodesk major Desktop Products
 
 Migrate the CI-CD experience from Vault product to all other major products, use Jenkins pipeline to implement automation build process, and crate a unified dashboard for all departments usage.
@@ -271,6 +273,7 @@ Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
 
 •	[Demo](./docs/demo/3.Proj3.md)
 
+<a name="IV"></a>
 ### IV. Implement micro services based on CI-CD automatic deployment for company products build process
 
 In implementing the automatic CI-CD build/release for the major desktop products in above project III, we wrote more than 10 micro services and implemented the automatic deployment by ci-cd.
