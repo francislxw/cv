@@ -112,7 +112,7 @@ November 2011 ~ June 2021 (9 years 5 months)
 
 **Software Engineer (Developer)**
 
-Autodesk, Inc. (ACRD) | Shanghai, China
+Autodesk Software (China) Co., Ltd. (ACRD) | Shanghai, China
 
 May 2005 ~ November 2011 (6 years 6 months) 
 
