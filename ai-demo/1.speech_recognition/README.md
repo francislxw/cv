@@ -35,7 +35,7 @@ This project is to learn and practise recongnizing Chinese Audio and transfering
     ```
     run_ai.bat
     ```
-#### II. Web
+#### II. Server
 5. In the speech_recognition dir, run below script to build docker image for testing:
     ```
     docker build -t speech_recognition .
