@@ -350,7 +350,7 @@ symmetric encryption and asymmetric encryption
 
 * [Microsoft Azure](./azure)
 
-* [AWS](./aws)
+* AWS [certificate](./aws), [demo](./aws/imageservicecomponent.md)
 
 ### Computer Graphics
 * [Free Form Deformation](./computer-graphics) 
