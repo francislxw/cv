@@ -182,7 +182,7 @@ initial task, sync-source code, get 3rd party files, compile solutions, harmony 
 
 5.)	Switch the build process from fixed VM to k8s clusters, once build is done, pod will be removed, which will save cloud resources.
 
-6.)	Notify committer with job results by email and slack channel.
+6.)	Notify alerts to DevOps team by email and slack channel.
 
 •	[Demo](./docs/demo/1.Proj1.md)
 
