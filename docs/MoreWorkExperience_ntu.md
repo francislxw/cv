@@ -31,7 +31,9 @@ Result: The dissertation passed the final review of NTU graduate committee
 
 **Demo**
 
- <img align='middle' src="ntu.dissertation.demo.jpg" width="600" height="516">  
+ <img align='middle' src="ntu.dissertation.demo.jpg" width="600" height="516"> 
+ 
+ [Details](./NTU-StudyProjects/Dissertation)
 
 **More**
 * free-form-deformation by WebGL [FFD WebGL](../computer-graphics/free-form-deformation)
