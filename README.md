@@ -128,13 +128,13 @@ May 2005 ~ November 2011 (6 years 6 months)
 
 [IV. Implement micro services based on CI-CD automatic deployment for company products build process](#IV)
 
-V. Pull Request CI/CD System from P4 to Git
+[V. Pull Request CI/CD System from P4 to Git](./docs/MoreWorkExperience_sinoffice.md)
 
 VI. BRE/ECS – CI/CD Builds for the Data Management Team
 
 >	**Shanghai Office**
 
-VII. Form DevOps team and Set up Automation building process for Inventor, Vault, ETO
+[VII. Form DevOps team and Set up Automation building process for Inventor, Vault, ETO](./docs/MoreWorkExperience_shaoffice.md)
 
 VIII. Develop two tools iTuneUp and MSDPSCollector
 
@@ -144,15 +144,15 @@ X. C4a, AEC Block Management
 
 >	**Others**
 
-XI. Setup DevOps Platform for *Graphic Editing System* and *Chinese Speech Recognition System* with Kubernetes Cluster
+[XI. Setup DevOps Platform for *Graphic Editing System* and *Chinese Speech Recognition System* with Kubernetes Cluster](./docs/MoreWorkKubernetes.md)
 
 XII. Migrate SpringCloud based e-Shopping Platform to K8s
 
-XIII. E-learning | ML&DL&AI
+[XIII. E-learning | ML&DL&AI](./docs/MoreWorkELearningAI.md)
 
-XIV. Interactive Shape Editing
+[XIV. Interactive Shape Editing](./NTU-StudyProjects/Dissertation)
 
-XV. E-Practice | leetcode coding exercise
+[XV. E-Practice | leetcode coding exercise](https://leetcode-cn.com/u/lionsg/)
 
 ## Project Experience - Details
 
