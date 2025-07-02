@@ -47,16 +47,20 @@ September 1998 ~ July 2002
 
 ## Skills Summary
 
-**1. Rich experience in software agile development and DevOps culture construction**
+**1. Deep expertise in Agile development practices and DevOps culture adoption**
 
-o	Much experience in software agile development and delivery, Devops culture among different collaborative teams. 
+o	Extensive experience in Agile software development, delivery, and cross-team DevOps collaboration.. 
 
-*	Agile development, CI/CD/CL/Jenkins/Artifactory
+*	Agile development, CI/CD/CL/Jenkins/Artifactory/JFrog/gitops-deploy/spinnaker/argoCD/Canary deployment
+  
+*	Spearheaded DevOps culture transformation across development, QA, delivery, localization, and security teams
+  
+*	Implemented Scrum and OKR methodologies to enhance cross-team collaboration and accelerate incident resolution
 
-*	Devops culture construction, involved development, installer, QA, delivery and localize, security teams, collaboration between them and rapid error correction by Scrum and OKR methodologies.
+o	Led cloud-native transformation (0→1) for multiple products with Docker/K8s/microservices and full automation
 
-o	Completed the 0-1 modernization transformation of multiple products
-
+* Built cloud infrastructure from scratch (0 to 1) on Alibaba Cloud using advanced Kubernetes (ACK: Alibaba Container Service for Kubernetes) to support applications running in China regions.
+  
 *	Service based architecture, API based communication, container based infrastructure and Devops process
 
 *	Single modular applications of multiple products are built based on the same principle of cloud native
