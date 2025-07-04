@@ -108,6 +108,12 @@ o	Development
 
 ## Working Experience
 
+**Senior DevOps Engineer (Engineering | DevOps)**
+
+Project44 China | Shanghai, China
+
+April 2022 ~ June 2025 (3 years 2 months) 
+
 **Senior Software Engineer III (Engineering | DevOps)**
 
 Autodesk Asia Pte Ltd. (ASRD)  | Singapore
@@ -120,7 +126,21 @@ Autodesk Software (China) Co., Ltd. (ACRD) | Shanghai, China
 
 May 2005 ~ November 2011 (6 years 6 months) 
 
-## Project Experience - Listing
+## Project Portfolio
+>	**Project44 China**
+[I.Built cloud infrastructure from scratch (0 to 1) on Alibaba Cloud using advanced Kubernetes (ACK: Alibaba Container Service for Kubernetes) to support applications running in China regions](#I)
+
+[II.Set up a complete monitoring and alerting stack across the China infrastructure, including Datadog (DD), Elasticsearch, Logstash, Kibana (ELK), Grafana and Observe]
+
+[III.Designed and implemented Alibaba Cloud resource audit system to monitor and track infrastructure changes across all cloud services]
+
+[IV.Deployed the China Movement Web platform and passing all QA validation checks to deliver a stable, production-ready service]
+
+[V.Archive the data in the Lingang Government Data Center to obtain/renew the Data Export Security License]
+
+[VI.Migrated mapping services from Mapbox to Baidu Maps to comply with China market regulations]
+
+[VII.POC project, APAC AI Agent]
 
 >	**Singapore Office**
 
