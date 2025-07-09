@@ -128,6 +128,7 @@ May 2005 ~ November 2011 (6 years 6 months)
 
 ## Project Portfolio
 >	**Project44 China**
+
 [I.Built Alibaba Cloud/GCP hybrid platform for China apps with cross-border networking](#I)
 
 [II.Deployed China Monitoring Stack: Datadog, ELK & Grafana](#II)
@@ -187,21 +188,28 @@ XII. Migrate SpringCloud based e-Shopping Platform to K8s
 
 In 2022, I architected Project44's greenfield Alibaba Cloud deployment (0→1) for China operations, establishing a hybrid cloud platform with GCP via Megaport. This compliant infrastructure processed 1M+ daily orders while maintaining real-time synchronization with US systems. The solution enabled full localization without sacrificing global connectivity, becoming Project44's foundation for APAC expansion. Key achievements included seamless cloud-native migration, cross-region networking, and unified security across both platforms.
 
-•	Role: PI                                                          Time: April 2022-Mar 2023
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: April 2022-Mar 2023
+
 •	Major functions:
+
 1.)	Cloud Infrastructure Migration
+
 • Evaluated and migrated GCP infrastructure to Alibaba Cloud, replicating US services with full functionality.
 
 2.) IaC Development
+
 • Built 20+ reusable Terraform modules across 5 Git repos for standardized Alibaba Cloud deployments.
 
 3.) Core Platform Deployment
+
 • Deployed Kubernetes clusters, hybrid networking (Megaport GCP link), and middleware (Kafka, Postgres, Redis).
 
 4.) Security & Observability
+
 • Implemented Vault, IAM, and ELK stack for secure, observable operations across both clouds.
 
 5.) Operations & Maintenance
+
 • Maintained ACK clusters with security patches and built China-compliant logging pipelines.
 
 <a name="II"></a>
@@ -209,39 +217,52 @@ In 2022, I architected Project44's greenfield Alibaba Cloud deployment (0→1) f
 
 Designed and deployed a Terraform-based monitoring stack (Datadog/ELK/Grafana) across China environments using GitOps (ArgoCD), with real-time Slack/PagerDuty alerts ensuring 99.9% SLA compliance and full-stack observability.
 
-•	Role: PI                                                          Time: Mar 2023-June 2023
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: Mar 2023-June 2023
+
 •	Major functions:
+
 1.) Cross-Region Monitoring
+
 Deployed Datadog across Alibaba Cloud with custom dashboards, achieving 99.9% visibility for all China services. (15 words)
 
 2.) Log Management
+
 Built Elasticsearch-Logstash pipeline enabling sub-2s log searches across environments for rapid troubleshooting. (14 words)
 
 3.) Observability Framework
+
 Configured China-hosted Grafana with 15+ dashboards tracking 50+ KPIs including API performance. (15 words)
 
 4.) Incident Management
+
 Integrated Slack/PagerDuty with tiered escalation and automated runbooks for 24/7 response. (16 words)
 
 <a name="III"></a>
 ### III.Built Alibaba Cloud Compliance Auditor for US SOC2
 
 Designed and developed a SOC2-compliant auditing system on Alibaba Cloud using ActionTrail/OSS/MNS, with Logstash-to-SumoLogic analysis and Vault-secured secrets. Automated compliance reporting (40+ hrs/month savings) achieved SOC2 Type I certification with full audit trails.
-•	Role: PI                                                          Time: Mar 2023-June 2023
+
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: Mar 2023-June 2023
+
 •	Major functions:
+
 1.) Log Management System
+
 Built ActionTrail-to-SumoLogic pipeline via OSS/MNS and Logstash, streaming structured API logs for US compliance analytics. 
 
 2.) Security Framework
+
 Implemented Vault-managed secrets with RAM Roles/K8s webhooks, enforcing RBAC and least-privilege access per SOC2. 
 
 3.) Compliance Automation
+
 Configured Sumo Logic with SOC2 rulesets and WORM-protected OSS storage for immutable audit evidence. 
 
 4.) Monitoring & Response
+
 Deployed real-time Slack/email alerts for suspicious activity, achieving 100% traceability and SOC2 Type II readiness.
 
-> >3 years
+>  >3 years
 <a name="I"></a>
 ### I. Migrate ETO Component CI/CD build process from VM to K8s Platform
 
