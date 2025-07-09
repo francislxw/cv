@@ -135,13 +135,15 @@ May 2005 ~ November 2011 (6 years 6 months)
 
 [III.Built Alibaba Cloud Compliance Auditor for US SOC2](#III)
 
-[IV.Deployed the China Movement Web platform and passing all QA validation checks to deliver a stable, production-ready service]
+[IV.Delivered QA-Validated China Web Platform](#IV)
 
-[V.Archive the data in the Lingang Government Data Center to obtain/renew the Data Export Security License]
+[V.Secured Data Export License by archiving cross-border data in Lingang Government Data Center](#V)
 
-[VI.Migrated mapping services from Mapbox to Baidu Maps to comply with China market regulations]
+[VI.Migrated Mapping Services from Mapbox to Baidu per China Regulations](#VI)
 
-[VII.POC project, APAC AI Agent]
+[VII.Built Backend for WeChat Mini Program 'Smart Operation'(ZhiYunXing)](#VII)
+
+[VIII.POC project, APAC AI Agent]
 
 >	**Autodesk Singapore Office**
 
@@ -261,6 +263,120 @@ Configured Sumo Logic with SOC2 rulesets and WORM-protected OSS storage for immu
 4.) Monitoring & Response
 
 Deployed real-time Slack/email alerts for suspicious activity, achieving 100% traceability and SOC2 Type II readiness.
+
+<a name="IV"></a>
+### IV.Delivered QA-Validated China Web Platform
+
+Deployed Movement China's frontend on Alibaba Cloud with ICP-compliant footer, implementing a reverse proxy architecture for seamless US backend integration to deliver sub-100ms latency for Chinese users.
+
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: Jan 2024-June 2024
+
+•	Major functions:
+
+1.) Micro-Frontend Optimization
+
+Deployed single-spa on Alibaba Cloud OSS, cutting latency 40% for China users through optimized resource loading.
+
+2.) CI/CD Automation
+
+Built Jenkins/GitHub Actions/ArgoCD pipeline with Spinnaker canary releases for zero-downtime deployments.
+
+3.) Proactive Monitoring
+
+Configured Datadog synthetic tests with auto-alerts for real-time UI health validation.
+
+4.) Observability Stack
+
+Integrated Slack-ELK for instant system alerts and log-driven troubleshooting.
+
+
+<a name="V"></a>
+### V.Secured Data Export License by archiving cross-border data in Lingang Government Data Center
+
+Developed Alibaba Cloud proxy clusters to securely route China logistics data to North America, implementing dual-path replication to Lingang's cross-border system for compliance. Achieved 99.99% reliability with mTLS authentication, cryptographic notarization, and automated audits, fully meeting Data Security Law and export license requirements.
+
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: July 2024-Dec 2024
+
+•	Major functions:
+
+1.) Proxy Infrastructure
+
+Built Alibaba Cloud proxy layer to securely route China-originating data to North American APIs.
+
+2.) Compliant Data Routing
+
+Established dual-path architecture with real-time replication to Lingang for regulatory archiving.
+
+3.) Regulatory Assurance
+
+Certified compliance with China's data laws (PIPL/DSL) and ISO 27001 via TLS 1.3 encryption.
+
+4.) Operations & Monitoring
+
+Deployed Datadog/ELK monitoring with 99.95% SLA enforcement and <5min incident response.
+
+<a name="VI"></a>
+### VI.Migrated Mapping Services from Mapbox to Baidu per China Regulations
+
+Led migration from Mapbox to Baidu Maps after evaluating geocoding accuracy. Integrated Baidu's APIs (geocoding/routing) with Alibaba Cloud caching, deployed on ACK via GitOps (ArgoCD). Implemented Datadog/ELK/Grafana monitoring with canary releases. Achieved 12% accuracy gains and 35% cost savings while fully complying with China's mapping regulations.
+
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: Jan 2025-June 2025
+
+•	Major functions:
+
+1.) Vendor Selection & Integration
+
+Chose Baidu Maps after accuracy benchmarks, developing an adaptation layer to replace Mapbox's geocoding/routing APIs.
+
+2.) Performance Optimization
+
+Deployed Redis caching on Alibaba Cloud with throttling fallbacks, achieving ≤200ms response times.
+
+3.) Observability Framework
+
+Monitored via Datadog/ELK/Grafana with 0.5% error rate alerts for API reliability.
+
+4.) Deployment Automation
+
+Implemented ArgoCD GitOps with canary releases on ACK, optimized via HPA autoscaling.
+
+5.) Business Outcomes
+
+Delivered 12% accuracy gain, 35% cost reduction, and 99.95% SLA compliance.
+
+<a name="VII"></a>
+### VII.Built Backend for WeChat Mini Program 'Smart Operation'(ZhiYunXing)
+
+Built 'Smart Operation' WeChat Mini Program with real-time driver tracking and cargo management. Developed full-stack backend: WeChat API integration, Alibaba Cloud SMS, Git standardization, Kubernetes deployment, and ELK monitoring. Achieved 99.9% uptime with compliant CI/CD pipelines, optimizing cloud resources while meeting all regulatory requirements.
+
+•	Role: PI　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Time: Jan 2025-June 2025
+
+•	Major functions:
+
+1.) WeChat Integration
+
+Configured Mini Program APIs (auth/payment) with Vault for credential management, ensuring China compliance.
+
+2.) SMS Compliance
+
+Deployed approved Alibaba Cloud SMS templates with regulated signatures and access controls.
+
+3.) Code Management
+
+Established enterprise Git with branch permissions and baseline CI/CD pipelines.
+
+4.) Kubernetes Deployment
+
+Provisioned Alibaba Cloud ACK clusters with standardized Helm Charts.
+
+5.) Monitoring System
+
+Built ELK stack with Filebeat collection and anomaly alerting.
+
+6.) Team Coordination
+
+Delivered integration docs and conducted system health audits.
+
 
 >  >3 years
 <a name="I"></a>
