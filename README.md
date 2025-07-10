@@ -161,25 +161,25 @@ VI. BRE/ECS – CI/CD Builds for the Data Management Team
 
 >	**Autodesk Shanghai Office**
 
-[VII. Form DevOps team and Set up Automation building process for Inventor, Vault, ETO](./docs/MoreWorkExperience_shaoffice.md)
+[I. Form DevOps team and Set up Automation building process for Inventor, Vault, ETO](./docs/MoreWorkExperience_shaoffice.md)
 
-VIII. Develop two tools iTuneUp and MSDPSCollector
+II. Develop two tools iTuneUp and MSDPSCollector
 
-IX. Reduce Inventor Build Cost
+III. Reduce Inventor Build Cost
 
-X. C4a, AEC Block Management
+IV. C4a, AEC Block Management
 
 >	**Others**
 
-[XI. Setup DevOps Platform for *Graphic Editing System* and *Chinese Speech Recognition System* with Kubernetes Cluster](./docs/MoreWorkKubernetes.md)
+[I. Setup DevOps Platform for *Graphic Editing System* and *Chinese Speech Recognition System* with Kubernetes Cluster](./docs/MoreWorkKubernetes.md)
 
-XII. Migrate SpringCloud based e-Shopping Platform to K8s
+II. Migrate SpringCloud based e-Shopping Platform to K8s
 
-[XIII. E-learning | ML&DL&AI](./docs/MoreWorkELearningAI.md)
+[III. E-learning | ML&DL&AI](./docs/MoreWorkELearningAI.md)
 
-[XIV. Interactive Shape Editing](./NTU-StudyProjects/Dissertation)
+[IV. Interactive Shape Editing](./NTU-StudyProjects/Dissertation)
 
-[XV. E-Practice | leetcode coding exercise](https://leetcode-cn.com/u/lionsg/)
+[V. E-Practice | leetcode coding exercise](https://leetcode-cn.com/u/lionsg/)
 
 ## Project Experience
 
@@ -378,7 +378,7 @@ Built ELK stack with Filebeat collection and anomaly alerting.
 Delivered integration docs and conducted system health audits.
 
 
->  > 3 years
+>  OVER 3 years
 <a name="2.1"></a>
 ### I. Migrate ETO Component CI/CD build process from VM to K8s Platform
 
