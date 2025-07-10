@@ -129,31 +129,31 @@ May 2005 ~ November 2011 (6 years 6 months)
 ## Project Portfolio
 >	**Project44 China**
 
-[I.Built Alibaba Cloud/GCP hybrid platform for China apps with cross-border networking](#I)
+[I.Built Alibaba Cloud/GCP hybrid platform for China apps with cross-border networking](#1.1)
 
-[II.Deployed China Monitoring Stack: Datadog, ELK & Grafana](#II)
+[II.Deployed China Monitoring Stack: Datadog, ELK & Grafana](#1.2)
 
-[III.Built Alibaba Cloud Compliance Auditor for US SOC2](#III)
+[III.Built Alibaba Cloud Compliance Auditor for US SOC2](#1.3)
 
-[IV.Delivered QA-Validated China Web Platform](#IV)
+[IV.Delivered QA-Validated China Web Platform](#1.4)
 
-[V.Secured Data Export License by archiving cross-border data in Lingang Government Data Center](#V)
+[V.Secured Data Export License by archiving cross-border data in Lingang Government Data Center](#1.5)
 
-[VI.Migrated Mapping Services from Mapbox to Baidu per China Regulations](#VI)
+[VI.Migrated Mapping Services from Mapbox to Baidu per China Regulations](#1.6)
 
-[VII.Built Backend for WeChat Mini Program 'Smart Operation'(ZhiYunXing)](#VII)
+[VII.Built Backend for WeChat Mini Program 'Smart Operation'(ZhiYunXing)](#1.7)
 
 [VIII.POC project, APAC AI Agent]
 
 >	**Autodesk Singapore Office**
 
-[I. Migrate ETO Component CI/CD build process from VM to K8s Platform](#I)
+[I. Migrate ETO Component CI/CD build process from VM to K8s Platform](#2.1)
 
-[II. Migrate micro-services from Separated Dockers to Kubernetes cluster with HA of master nodes and monitor system](#II)
+[II. Migrate micro-services from Separated Dockers to Kubernetes cluster with HA of master nodes and monitor system](#2.2)
 
-[III. Automation CI-CD Build Process for Autodesk major Desktop Products](#III)
+[III. Automation CI-CD Build Process for Autodesk major Desktop Products](#2.3)
 
-[IV. Implement micro services based on CI-CD automatic deployment for company products build process](#IV)
+[IV. Implement micro services based on CI-CD automatic deployment for company products build process](#2.4)
 
 [V. Pull Request CI/CD System from P4 to Git](./docs/MoreWorkExperience_sinoffice.md)
 
@@ -185,7 +185,7 @@ XII. Migrate SpringCloud based e-Shopping Platform to K8s
 
 > <=3 years
 
-<a name="I"></a>
+<a name="1.1"></a>
 ### I.Built Alibaba Cloud/GCP hybrid platform for China apps with cross-border networking
 
 In 2022, I architected Project44's greenfield Alibaba Cloud deployment (0→1) for China operations, establishing a hybrid cloud platform with GCP via Megaport. This compliant infrastructure processed 1M+ daily orders while maintaining real-time synchronization with US systems. The solution enabled full localization without sacrificing global connectivity, becoming Project44's foundation for APAC expansion. Key achievements included seamless cloud-native migration, cross-region networking, and unified security across both platforms.
@@ -214,7 +214,7 @@ In 2022, I architected Project44's greenfield Alibaba Cloud deployment (0→1) f
 
 • Maintained ACK clusters with security patches and built China-compliant logging pipelines.
 
-<a name="II"></a>
+<a name="1.2"></a>
 ### II.Deployed China Monitoring Stack: Datadog, ELK & Grafana
 
 Designed and deployed a Terraform-based monitoring stack (Datadog/ELK/Grafana) across China environments using GitOps (ArgoCD), with real-time Slack/PagerDuty alerts ensuring 99.9% SLA compliance and full-stack observability.
@@ -225,21 +225,21 @@ Designed and deployed a Terraform-based monitoring stack (Datadog/ELK/Grafana) a
 
 1.) Cross-Region Monitoring
 
-Deployed Datadog across Alibaba Cloud with custom dashboards, achieving 99.9% visibility for all China services. (15 words)
+Deployed Datadog across Alibaba Cloud with custom dashboards, achieving 99.9% visibility for all China services.
 
 2.) Log Management
 
-Built Elasticsearch-Logstash pipeline enabling sub-2s log searches across environments for rapid troubleshooting. (14 words)
+Built Elasticsearch-Logstash pipeline enabling sub-2s log searches across environments for rapid troubleshooting.
 
 3.) Observability Framework
 
-Configured China-hosted Grafana with 15+ dashboards tracking 50+ KPIs including API performance. (15 words)
+Configured China-hosted Grafana with 15+ dashboards tracking 50+ KPIs including API performance.
 
 4.) Incident Management
 
-Integrated Slack/PagerDuty with tiered escalation and automated runbooks for 24/7 response. (16 words)
+Integrated Slack/PagerDuty with tiered escalation and automated runbooks for 24/7 response.
 
-<a name="III"></a>
+<a name="1.3"></a>
 ### III.Built Alibaba Cloud Compliance Auditor for US SOC2
 
 Designed and developed a SOC2-compliant auditing system on Alibaba Cloud using ActionTrail/OSS/MNS, with Logstash-to-SumoLogic analysis and Vault-secured secrets. Automated compliance reporting (40+ hrs/month savings) achieved SOC2 Type I certification with full audit trails.
@@ -264,7 +264,7 @@ Configured Sumo Logic with SOC2 rulesets and WORM-protected OSS storage for immu
 
 Deployed real-time Slack/email alerts for suspicious activity, achieving 100% traceability and SOC2 Type II readiness.
 
-<a name="IV"></a>
+<a name="1.4"></a>
 ### IV.Delivered QA-Validated China Web Platform
 
 Deployed Movement China's frontend on Alibaba Cloud with ICP-compliant footer, implementing a reverse proxy architecture for seamless US backend integration to deliver sub-100ms latency for Chinese users.
@@ -290,7 +290,7 @@ Configured Datadog synthetic tests with auto-alerts for real-time UI health vali
 Integrated Slack-ELK for instant system alerts and log-driven troubleshooting.
 
 
-<a name="V"></a>
+<a name="1.5"></a>
 ### V.Secured Data Export License by archiving cross-border data in Lingang Government Data Center
 
 Developed Alibaba Cloud proxy clusters to securely route China logistics data to North America, implementing dual-path replication to Lingang's cross-border system for compliance. Achieved 99.99% reliability with mTLS authentication, cryptographic notarization, and automated audits, fully meeting Data Security Law and export license requirements.
@@ -315,7 +315,7 @@ Certified compliance with China's data laws (PIPL/DSL) and ISO 27001 via TLS 1.3
 
 Deployed Datadog/ELK monitoring with 99.95% SLA enforcement and <5min incident response.
 
-<a name="VI"></a>
+<a name="1.6"></a>
 ### VI.Migrated Mapping Services from Mapbox to Baidu per China Regulations
 
 Led migration from Mapbox to Baidu Maps after evaluating geocoding accuracy. Integrated Baidu's APIs (geocoding/routing) with Alibaba Cloud caching, deployed on ACK via GitOps (ArgoCD). Implemented Datadog/ELK/Grafana monitoring with canary releases. Achieved 12% accuracy gains and 35% cost savings while fully complying with China's mapping regulations.
@@ -344,7 +344,7 @@ Implemented ArgoCD GitOps with canary releases on ACK, optimized via HPA autosca
 
 Delivered 12% accuracy gain, 35% cost reduction, and 99.95% SLA compliance.
 
-<a name="VII"></a>
+<a name="1.7"></a>
 ### VII.Built Backend for WeChat Mini Program 'Smart Operation'(ZhiYunXing)
 
 Built 'Smart Operation' WeChat Mini Program with real-time driver tracking and cargo management. Developed full-stack backend: WeChat API integration, Alibaba Cloud SMS, Git standardization, Kubernetes deployment, and ELK monitoring. Achieved 99.9% uptime with compliant CI/CD pipelines, optimizing cloud resources while meeting all regulatory requirements.
@@ -378,8 +378,8 @@ Built ELK stack with Filebeat collection and anomaly alerting.
 Delivered integration docs and conducted system health audits.
 
 
->  >3 years
-<a name="I"></a>
+>  > 3 years
+<a name="2.1"></a>
 ### I. Migrate ETO Component CI/CD build process from VM to K8s Platform
 
 Decouple exist CICD build process of ETO component, and migrate it to kubernetes cluster DevOps platform with github,Jenkins, k8s and artifactory server, this is a pilot project, purpose is to accumulate experiences for other larger products build process migration.
@@ -408,7 +408,7 @@ initial task, sync-source code, get 3rd party files, compile solutions, harmony 
 
 •	[Demo](./docs/demo/1.Proj1.md)
 
-<a name="II"></a>
+<a name="2.2"></a>
 ### II. Migrate micro-services from Separated Dockers to Kubernetes cluster with HA of master nodes and monitor system
 
 Migrate micro-services implemented in project IV from separated Dockers to k8s, implement DevOps platform with Jenkins, k8s and artifactory server, and make it much easier to maintain these services.
@@ -435,7 +435,7 @@ sync source code, compile solutions, harmony scan, create docker image, push to 
 
 •	[Demo](./docs/demo/2.Proj2.md)
 
-<a name="III"></a>
+<a name="2.3"></a>
 ### III. Automation CI-CD Build Process for Autodesk major Desktop Products
 
 Migrate the CI-CD experience from Vault product to all other major products, use Jenkins pipeline to implement automation build process, and crate a unified dashboard for all departments usage.
@@ -494,7 +494,7 @@ Inventor, Vault, Civil3D, Factory Design Unities, ETO, Process Analysis etc.
 
 •	[Demo](./docs/demo/3.Proj3.md)
 
-<a name="IV"></a>
+<a name="2.4"></a>
 ### IV. Implement micro services based on CI-CD automatic deployment for company products build process
 
 In implementing the automatic CI-CD build/release for the major desktop products in above project III, we wrote more than 10 micro services and implemented the automatic deployment by ci-cd.
@@ -635,3 +635,11 @@ symmetric encryption and asymmetric encryption
 **Agile Workshop** | Oct 11st, 2019
 
 **Interview Bootcamp** | March 15th, 2021
+
+**Alibaba Cloud Certified Expert - Cloud Computing Training** | May 1st, 2022 - Apr 30th, 2023
+
+**AI Github Copilot Training** | Oct 5th, 2024
+
+**AI Courser Training** | Dec 20th, 2024
+
+**AI CodeRabbit** | Mar 12th, 2025
