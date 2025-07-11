@@ -606,40 +606,40 @@ symmetric encryption and asymmetric encryption
 
 ## Training Experience
 
-**Power Communication Skills** | April 13th, 2012
-
-**Scrum Foundation and Agile Engineering Practice** | April 16th ~ 18th 2012
-
-**Employee Leadership Program Training** | September 4th ~ 7th 2012
-
-**Conflicts Management** | April 23rd, 2013
-
-**Power Presentation Skills** | July 10th ~11th 2014
-
-**Security Training** | January 4th, 2015
-
-**Business English 2B** | Dec 2016 ~ Jan 2017, British Council  
-
-**AWS Workshop: AMI creation using Packer** | July 1st, 2017
-
-**AWS Workshop: Terraform** | July 21st ,2017
-
-**AWS Technical Essentials** | April 23rd , 2018, Asia / Singapore
-
-**AWS Summit Singapore 2019** | Nov 4th, 2019
-
-**AWS Summit Online ASEAN 2020** | May 13th, 2020, Singapore
-
-**OKR workshop** | May 23rd ,2019
-
-**Agile Workshop** | Oct 11st, 2019
-
-**Interview Bootcamp** | March 15th, 2021
-
-**Alibaba Cloud Certified Expert - Cloud Computing Training** | May 1st, 2022 - Apr 30th, 2023
-
-**AI Github Copilot Training** | Oct 5th, 2024
+**AI CodeRabbit** | Mar 12th, 2025
 
 **AI Courser Training** | Dec 20th, 2024
 
-**AI CodeRabbit** | Mar 12th, 2025
+**AI Github Copilot Training** | Oct 5th, 2024
+
+**Alibaba Cloud Certified Expert - Cloud Computing Training** | May 1st, 2022 - Apr 30th, 2023
+
+**Interview Bootcamp** | March 15th, 2021
+
+**Agile Workshop** | Oct 11st, 2019
+
+**OKR workshop** | May 23rd ,2019
+
+**AWS Summit Online ASEAN 2020** | May 13th, 2020, Singapore
+
+**AWS Summit Singapore 2019** | Nov 4th, 2019
+
+**AWS Technical Essentials** | April 23rd , 2018, Asia / Singapore
+
+**AWS Workshop: Terraform** | July 21st ,2017
+
+**AWS Workshop: AMI creation using Packer** | July 1st, 2017
+
+**Business English 2B** | Dec 2016 ~ Jan 2017, British Council
+
+**Security Training** | January 4th, 2015
+
+**Power Presentation Skills** | July 10th ~11th 2014
+
+**Conflicts Management** | April 23rd, 2013
+
+**Employee Leadership Program Training** | September 4th ~ 7th 2012
+
+**Scrum Foundation and Agile Engineering Practice** | April 16th ~ 18th 2012
+
+**Power Communication Skills** | April 13th, 2012
