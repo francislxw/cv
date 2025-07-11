@@ -378,7 +378,7 @@ Built ELK stack with Filebeat collection and anomaly alerting.
 Delivered integration docs and conducted system health audits.
 
 
->  OVER 3 years
+>  >= 3 years
 <a name="2.1"></a>
 ### I. Migrate ETO Component CI/CD build process from VM to K8s Platform
 
