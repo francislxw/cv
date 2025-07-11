@@ -184,7 +184,7 @@ II. Migrate SpringCloud based e-Shopping Platform to K8s
 ## Project Experience
 
 > <=3 years
-
+ 
 <a name="1.1"></a>
 ### I.Built Alibaba Cloud/GCP hybrid platform for China apps with cross-border networking
 
@@ -376,9 +376,8 @@ Built ELK stack with Filebeat collection and anomaly alerting.
 6.) Team Coordination
 
 Delivered integration docs and conducted system health audits.
-
-
->  >= 3 years
+<br>
+> \> 3 years
 <a name="2.1"></a>
 ### I. Migrate ETO Component CI/CD build process from VM to K8s Platform
 
