@@ -143,7 +143,7 @@ May 2005 ~ November 2011 (6 years 6 months)
 
 [VII.Built Backend for WeChat Mini Program 'Smart Operation'(ZhiYunXing)](#1.7)
 
-[VIII.POC project, APAC AI Agent]
+VIII.POC project, APAC AI Agent
 
 >	**Autodesk Singapore Office**
 
