@@ -1,6 +1,6 @@
 ## Agentic AI
 
-[<img align='middle' src="docs/1.deeplearningai.webp" width="467" height="80">]([https://www.coursera.org/specializations/deep-learning?utm_source=deeplearning-ai&utm_medium=institutions&utm_campaign=20210308-dls-2-coursera-partner-promo-tool-dls-refresh](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!))  
+[<img align='middle' src="docs/1.deeplearningai.webp" width="197" height="43">]([https://www.coursera.org/specializations/deep-learning?utm_source=deeplearning-ai&utm_medium=institutions&utm_campaign=20210308-dls-2-coursera-partner-promo-tool-dls-refresh](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!))  
 
 **Agentic AI** Instructed by AI pioneer Andrew Ng, Generative AI for Everyone offers his unique perspective on empowering you and your work with generative AI. Andrew will 
 guide you through how generative AI works and what it can (and can’t) do. It includes hands-on exercises where you’ll learn to use generative AI to help in day-to-day work and 
@@ -11,9 +11,9 @@ This course was created to ensure everyone can be a participant in our AI-powere
 
 **Skills learned:**
 
-<img align='middle' src="docs/2.agenticai_skill.jpg" width="600" height="150"> 
+<img align='middle' src="docs/2.agenticai_skill.jpg" width="470" height="90"> 
  
-# Course Syllabus
+### Course Syllabus
 **Module 1: Introduction to Agentic Workflows**
   * What is agentic AI & Degress of AI autonomy
   * Benefits of agentic AI
