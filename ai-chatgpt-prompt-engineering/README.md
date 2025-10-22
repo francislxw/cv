@@ -18,6 +18,6 @@ be used in applications for a variety of tasks, including:
 In addition, you’ll learn two key principles for writing effective prompts, how to systematically engineer good prompts, and also learn to build a custom chatbot. All concepts
 are illustrated with numerous examples, which you can play with directly in our Jupyter notebook environment to get hands-on experience with prompt engineering
 
-<img align='middle' src="docs/2.2.chatbot.jpg" width="470" height="90"> 
+<img align='middle' src="docs/2.chatbot.jpg" width="518" height="487"> 
 reference:
 https://writingprompts.com/bad-grammar-examples/
